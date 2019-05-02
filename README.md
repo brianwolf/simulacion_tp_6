@@ -1,2 +1,2 @@
-# simulacion_tp_6
-![Alt Text](https://memegenerator.net/img/instances/71563392/porque-tan-serio-hijo-.jpg) 
+# Simulacion TP 6
+![Alt Text](https://i.imgur.com/8h3D3FI.png) 
