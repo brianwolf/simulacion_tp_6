@@ -1,4 +1,4 @@
-from generador_tareas import Tarea,DificultadTarea
+from administrador_tareas import Tarea,DificultadTarea
 from enum import Enum
 
 class PefilProgramador(Enum):

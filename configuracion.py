@@ -10,4 +10,4 @@ def obtener_seniors()->int:
     return 1
 
 def obtener_tiempo_fin_simulacion():
-    return 10
+    return 10000

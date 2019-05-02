@@ -20,8 +20,11 @@ def generar_tipo_tarea_aleatoria()->DificultadTarea:
 
     return choice(dificultades, 1,p=[d.value[1] for d in dificultades])
 
+def generar_intervalo_de_arribo():
+    return 1
+    
 def generar_fecha_creacion_aleatoria(tiempo_sistema):
-    return tiempo_sistema
+    return tiempo_sistema+generar_intervalo_de_arribo()
 
 def generar_tarea_aleatoria(tiempo_sistema):
     tarea_spec = {}
