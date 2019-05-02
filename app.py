@@ -37,7 +37,7 @@ def incrementar_tiempo_sistema(lista_administradores,tiempo_sistema):
 
 def resolver_tarea(tarea,tiempo_sistema):
 
-	if any( administrador : administrador.alguien_puede_resolver( tarea ) for administrador in lista_administradores ):
+	if any( administrador.alguien_puede_resolver( tarea ) for administrador in lista_administradores ):
 	
     	administrador = next(administrador for administrador in lista_administradores if administrador.alguien_puede_resolver( tarea ) )
       
