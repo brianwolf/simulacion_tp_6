@@ -2,9 +2,17 @@ from administrador_tareas import Tarea,DificultadTarea
 from enum import Enum
 
 class PefilProgramador(Enum):
-    junior = "junior",
-    semisenior = "semisenior",
-    senior = "senior"
+    Junior = "junior",
+    Semisenior = "semisenior",
+    Senior = "senior"
+
+    def string_value(self,val):
+        if type(val) is not str:
+            return self.string_value(val[0])
+        return val
+
+    def name(self):
+        return self.string_value(self.value)
 
 class Administrador:
     def __init__(self, nro_programadores):
@@ -33,25 +41,25 @@ class Administrador:
 
 class AdministradorJuniors(Administrador):
     def __init__(self, nro_programadores):
-        self.perfil = PefilProgramador.junior
+        self.perfil = PefilProgramador.Junior
         return Administrador.__init__(self,nro_programadores)
 
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
-        return self.programadores_disponibles>0 and tarea.tipo_tarea in [DificultadTarea.simple,DificultadTarea.complicada]
+        return self.programadores_disponibles>0 and tarea.tipo_tarea in [DificultadTarea.Simple,DificultadTarea.Complicada]
     
     
 class AdministradorSemiseniors(Administrador):
     def __init__(self, nro_programadores):
-        self.perfil = PefilProgramador.semisenior
+        self.perfil = PefilProgramador.Semisenior
         return Administrador.__init__(self,nro_programadores)
 
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
-        return self.programadores_disponibles>0 and tarea.tipo_tarea != DificultadTarea.caotica
+        return self.programadores_disponibles>0 and tarea.tipo_tarea != DificultadTarea.Caotica
 
 
 class AdministradorSeniors(Administrador):
     def __init__(self, nro_programadores):
-        self.perfil = PefilProgramador.senior 
+        self.perfil = PefilProgramador.Senior 
         return Administrador.__init__(self,nro_programadores)
     
     def alguien_puede_resolver(self,tarea:Tarea)->bool:

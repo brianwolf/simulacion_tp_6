@@ -16,7 +16,7 @@ class ResultadoSimulacion:
     self.tiempo_finalizacion = tiempo_finalizacion
   
   def agregar_tiempo_ocioso(self,perfil,cantidad_personas_al_pedo):
-    mapa_de_ocio = next(mapa for mapa in self.tiempos_de_ocio if mapa["perfil"].value==perfil.value)
+    mapa_de_ocio = next(mapa for mapa in self.tiempos_de_ocio if mapa["perfil"]==perfil)
     mapa_de_ocio["tiempo_ocioso"]+=cantidad_personas_al_pedo
 
   def generar_metricas(self,lista_tareas):
@@ -32,11 +32,11 @@ class ResultadoSimulacion:
       tareas_de_dificultad = list(filter(lambda t: t.tipo_tarea==dificultad,self.historico_tareas))
       cant_tareas = max(len(tareas_de_dificultad),1)
       promedio = sum(map(lambda t : t.fecha_fin-t.fecha_creacion ,tareas_de_dificultad))/cant_tareas
-      tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
+      tiempos_promedio_por_dificultad.append((dificultad.name(),promedio))
     return tiempos_promedio_por_dificultad
 
   def calcular_porcentajes_de_tiempos_de_ocio(self):
-    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(e["cantidad_programadores"]*self.tiempo_finalizacion)} for e in self.tiempos_de_ocio]
+    return [{"perfil":e["perfil"].name(),"porcentaje":e["tiempo_ocioso"]/(e["cantidad_programadores"]*self.tiempo_finalizacion)} for e in self.tiempos_de_ocio]
   
   def calcular_porcentaje_de_tareas_realizadas(self,lista_tareas):
     H = len(historico_tareas)
@@ -109,8 +109,8 @@ def hay_una_salida( lista_tareas, tiempo_sistema)->bool:
 
 def obtener_tarea( lista_tareas, tiempo_sistema ,evento:EventoTarea)->Tarea:
   
-  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.llegada and tarea.fecha_inicio==tiempo_sistema) or
-                                                  (evento==EventoTarea.salida and tarea.fecha_fin==tiempo_sistema))
+  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.Llegada and tarea.fecha_inicio==tiempo_sistema) or
+                                                  (evento==EventoTarea.Salida and tarea.fecha_fin==tiempo_sistema))
 
 def actualizar_tiempos_ociosos():
   for admin in lista_administradores:
@@ -127,11 +127,11 @@ while tiempo_sistema < tiempo_fin_simulacion:
 
   if hay_una_llegada( lista_tareas, tiempo_sistema):
       
-      tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.llegada)
+      tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
       resolver_tarea( tarea_a_resolver )
       
   elif hay_una_salida(lista_tareas,tiempo_sistema):
-    tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.salida)
+    tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
     finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema)
       
   tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)

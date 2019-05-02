@@ -10,10 +10,18 @@ class Tarea:
         self.fecha_fin = tarea_spec['fecha_fin']
 
 class DificultadTarea(Enum):
-    caotica = ("Caotico",0.7),
-    complicada = ("Complicado",0.37),
-    simple = ("Simple",0.25),
-    compleja = ("Complejo",0.31)
+    Caotica = ("Caotico",0.7),
+    Complicada = ("Complicado",0.37),
+    Simple = ("Simple",0.25),
+    Compleja = ("Complejo",0.31)
+
+    def string_value(self,val):
+        if type(val) is not str:
+            return self.string_value(val[0])
+        return val
+
+    def name(self):
+        return self.string_value(self.value)
 
 def generar_tipo_tarea_aleatoria()->DificultadTarea:
     dificultades = [dificultad for dificultad in DificultadTarea]
