@@ -1,6 +1,5 @@
 from enum import Enum
 from numpy.random import choice
-from copy import deepcopy
 
 
 class Tarea:
