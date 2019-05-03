@@ -37,6 +37,9 @@ class AdministradorJuniors(Administrador):
 
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0 and tarea.tipo_tarea in [DificultadTarea.Simple,DificultadTarea.Complicada]
+
+    def tiempo_resolucion_tarea(self,tarea:Tarea):
+        return 10
     
     
 class AdministradorSemiseniors(Administrador):
@@ -46,6 +49,9 @@ class AdministradorSemiseniors(Administrador):
 
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0 and tarea.tipo_tarea != DificultadTarea.Caotica
+    
+    def tiempo_resolucion_tarea(self,tarea:Tarea):
+        return 4
 
 
 class AdministradorSeniors(Administrador):
@@ -55,4 +61,7 @@ class AdministradorSeniors(Administrador):
     
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0
+
+    def tiempo_resolucion_tarea(self,tarea:Tarea):
+        return 1
 

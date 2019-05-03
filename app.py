@@ -6,8 +6,8 @@ from enum import Enum
 
 
 class EventoTarea(Enum):
-  llegada = "Llegada",
-  salida = "Salida"
+  Llegada = "Llegada",
+  Salida = "Salida"
 
 class ResultadoSimulacion:
   def __init__(self,tiempo_finalizacion,administradores):
@@ -102,14 +102,14 @@ def finalizar_tarea(tarea_finalizada, lista_administradores, tiempo_sistema):
   administrador.finalizar_tarea(tarea_finalizada)
 
 def hay_una_llegada( lista_tareas, tiempo_sistema)->bool:
-    return any(tarea.fecha_inicio==tiempo_sistema for tarea in lista_tareas)
+    return any(tarea.fecha_creacion==tiempo_sistema for tarea in lista_tareas)
 
 def hay_una_salida( lista_tareas, tiempo_sistema)->bool:
   return any(tarea.fecha_fin==tiempo_sistema for tarea in lista_tareas)
 
 def obtener_tarea( lista_tareas, tiempo_sistema ,evento:EventoTarea)->Tarea:
   
-  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.Llegada and tarea.fecha_inicio==tiempo_sistema) or
+  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.Llegada and tarea.fecha_creacion==tiempo_sistema) or
                                                   (evento==EventoTarea.Salida and tarea.fecha_fin==tiempo_sistema))
 
 def actualizar_tiempos_ociosos():
@@ -122,11 +122,12 @@ def actualizar_tiempos_ociosos():
 
 primera_iteracion=True
 
-while tiempo_sistema < tiempo_fin_simulacion:
+while tiempo_sistema < 3:
+# while tiempo_sistema < tiempo_fin_simulacion:
 
   lista_tareas = agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
   
-  print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
+  # print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
 
   primera_iteracion=False
 
@@ -136,7 +137,7 @@ while tiempo_sistema < tiempo_fin_simulacion:
 
     print('HAY UNA TAREA!!')
     tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
-    resolver_tarea( tarea_a_resolver )
+    resolver_tarea( tarea_a_resolver ,tiempo_sistema)
       
   elif hay_una_salida(lista_tareas,tiempo_sistema):
     tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)

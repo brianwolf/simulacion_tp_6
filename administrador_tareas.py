@@ -10,11 +10,17 @@ class Tarea:
         self.fecha_fin = tarea_spec['fecha_fin']
     
     def get_dict(self):
-        return {'tipo_tarea': self.tipo_tarea.value[0],
+        return {'tipo_tarea': None if self.tipo_tarea is None else self.tipo_tarea.value[0],
                 'perfil': None if self.perfil is None else self.perfil.value,
                 'fecha_creacion': self.fecha_creacion,
                 'fecha_inicio': self.fecha_inicio,
                 'fecha_fin': self.fecha_fin}
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __str__(self):
+        return str(self.get_dict())
 
 class DificultadTarea(Enum):
     Caotica = ("Caotico",0.07)
@@ -48,7 +54,8 @@ def se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas) -> bool:
     if not lista_tareas:
         return False
 
-    tarea:Tarea=sorted(lista_tareas, key=lambda t: t.fecha_creacion)[0]
+    print(lista_tareas)
+    tarea:Tarea=sorted(lista_tareas, key=lambda x: x.fecha_creacion)[0]
 
     return tarea.fecha_creacion<=tiempo_sistema
 
