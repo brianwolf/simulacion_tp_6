@@ -18,11 +18,17 @@ class Tarea:
                 'fecha_inicio': self.fecha_inicio,
                 'fecha_fin': self.fecha_fin}
 
+    def id(self):
+        return self.tipo_tarea,self.fecha_creacion
+
     def __repr__(self):
         return self.__str__()
 
     def __str__(self):
         return str(self.get_dict())
+
+    def __eq__(self,other):
+        return self.id()==other.id()
 
 class DificultadTarea(Enum):
     Caotica = ("Caotico",0.07)

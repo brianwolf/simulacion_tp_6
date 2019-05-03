@@ -17,26 +17,34 @@ class ResultadoSimulacion:
   
   def agregar_tiempo_ocioso(self,perfil,cantidad_personas_al_pedo):
     mapa_de_ocio = next(mapa for mapa in self.tiempos_de_ocio if mapa["perfil"]==perfil)
-    mapa_de_ocio["tiempo_ocioso"]+=cantidad_personas_al_pedo
+    mapa_de_ocio.update({"tiempo_ocioso":mapa_de_ocio["tiempo_ocioso"]+cantidad_personas_al_pedo})
 
   def generar_metricas(self,lista_tareas):
     tiempos_de_resolucion_promedio = self.calcular_tiempos_resolucion_promedio()
     porcentajes_de_tiempos_de_ocio = self.calcular_porcentajes_de_tiempos_de_ocio()
     porcentaje_de_tareas_realizadas = self.calcular_porcentaje_de_tareas_realizadas(lista_tareas)
 
+    print(f'TAREAS SIN HACER: {lista_tareas}\n')
+
     return {"PTR":porcentaje_de_tareas_realizadas,"TPR":tiempos_de_resolucion_promedio,"PTO":porcentajes_de_tiempos_de_ocio}
 
   def calcular_tiempos_resolucion_promedio(self):
     tiempos_promedio_por_dificultad = []
+
+    # print(f'TAREAS HISTORICO: {self.historico_tareas}\n')
+    # print(f'OCIO:{self.tiempos_de_ocio}\n')
+
     for dificultad in DificultadTarea:
       tareas_de_dificultad = list(filter(lambda t: t.tipo_tarea==dificultad,self.historico_tareas))
+      print(f'TAREAS {dificultad.value[0]}: {tareas_de_dificultad}\n')
       cant_tareas = max(len(tareas_de_dificultad),1)
       promedio = sum(map(lambda t : t.fecha_fin-t.fecha_creacion ,tareas_de_dificultad))/cant_tareas
       tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
+
     return tiempos_promedio_por_dificultad
 
   def calcular_porcentajes_de_tiempos_de_ocio(self):
-    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(e["cantidad_programadores"]*self.tiempo_finalizacion)} for e in self.tiempos_de_ocio]
+    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(self.tiempo_finalizacion*e["cantidad_programadores"])} for e in self.tiempos_de_ocio]
   
   def calcular_porcentaje_de_tareas_realizadas(self,lista_tareas):
     H = len(historico_tareas)
@@ -122,8 +130,7 @@ def actualizar_tiempos_ociosos():
 
 primera_iteracion=True
 
-while tiempo_sistema < 10:
-# while tiempo_sistema < tiempo_fin_simulacion:
+while tiempo_sistema < tiempo_fin_simulacion:
 
   agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
   
@@ -144,6 +151,7 @@ while tiempo_sistema < 10:
       
   tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)
     
+resultado_simulacion.historico_tareas = historico_tareas
 metricas = resultado_simulacion.generar_metricas(lista_tareas)
 
 print(metricas)
