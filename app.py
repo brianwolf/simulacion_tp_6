@@ -3,6 +3,7 @@ import administrador_tareas
 from administrador_tareas import Tarea,agregar_nueva_tarea,actualizar_estado_tarea,DificultadTarea
 from administradores import AdministradorJuniors, AdministradorSemiseniors, AdministradorSeniors,PefilProgramador
 from enum import Enum
+from progress.bar import Bar
 
 
 class EventoTarea(Enum):
@@ -129,8 +130,11 @@ def actualizar_tiempos_ociosos():
 # --------------------------------------
 
 primera_iteracion=True
+bar = Bar('Processing', max=tiempo_fin_simulacion)
 
 while tiempo_sistema < tiempo_fin_simulacion:
+
+  bar.next()
 
   agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
   
@@ -150,7 +154,9 @@ while tiempo_sistema < tiempo_fin_simulacion:
     finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema)
       
   tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)
-    
+
+bar.finish()
+
 resultado_simulacion.historico_tareas = historico_tareas
 metricas = resultado_simulacion.generar_metricas(lista_tareas)
 
