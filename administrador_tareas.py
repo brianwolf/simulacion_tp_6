@@ -1,5 +1,7 @@
 from enum import Enum
 from numpy.random import choice
+from copy import deepcopy
+
 
 class Tarea:
     def __init__(self, tarea_spec: dict):
@@ -53,11 +55,9 @@ def generar_tarea_aleatoria(tiempo_sistema):
 def se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas) -> bool:
     if not lista_tareas:
         return False
+    fecha_creacion_minima=min(map(lambda t:t.fecha_creacion,lista_tareas))
 
-    print(lista_tareas)
-    tarea:Tarea=sorted(lista_tareas, key=lambda x: x.fecha_creacion)[0]
-
-    return tarea.fecha_creacion<=tiempo_sistema
+    return fecha_creacion_minima<=tiempo_sistema
 
 
 def agregar_nueva_tarea(lista_tareas, tiempo_sistema,primera_iteracion=False):
@@ -68,16 +68,12 @@ def agregar_nueva_tarea(lista_tareas, tiempo_sistema,primera_iteracion=False):
     tarea_nueva = generar_tarea_aleatoria(tiempo_sistema)
     lista_tareas.append(tarea_nueva)
 
-    return lista_tareas
-
 def actualizar_estado_tarea(lista_tareas,tarea:Tarea,fecha_inicio,fecha_fin,perfil):
     lista_tareas.remove(tarea)
     tarea.fecha_inicio=fecha_inicio
     tarea.fecha_fin=fecha_fin
     tarea.perfil = perfil
 
-    lista_tareas.append(lista_tareas)
-
-    return lista_tareas
+    lista_tareas.append(tarea)
     
 

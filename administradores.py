@@ -10,7 +10,7 @@ class Administrador:
     def __init__(self, nro_programadores):
         self.programadores = nro_programadores
         self.programadores_ocupados=0
-        self.tiempos_de_finalizacion=[]
+        self.tareas_en_progreso=[]
 
     def programadores_disponibles(self):
         return self.programadores-self.programadores_ocupados
@@ -21,13 +21,16 @@ class Administrador:
     def tiempo_resolucion_tarea(self,tarea):
         raise NotImplementedError("Administrador no esta implementando 'tiempo_resolucion_tarea'")
 
-    def poner_a_resolver_hasta(self,tiempo_finalizacion):
+    def poner_a_resolver_tarea(self,tarea):
         self.programadores_ocupados+=1
-        self.tiempos_de_finalizacion.append(tiempo_finalizacion)
+        self.tareas_en_progreso.append(tarea)
+
+    def tenes_esta_tarea(self,tarea):
+        return tarea in self.tareas_en_progreso
 
     def finalizar_tarea(self,tarea:Tarea):
         self.programadores_ocupados-=1
-        self.tiempos_de_finalizacion.remove(tarea.fecha_fin)
+        self.tareas_en_progreso.remove(tarea)
     
 
 class AdministradorJuniors(Administrador):

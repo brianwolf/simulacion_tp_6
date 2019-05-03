@@ -80,16 +80,16 @@ def incrementar_tiempo_sistema(lista_administradores, tiempo_sistema):
   return tiempo_sistema + 1
 
 
-def resolver_tarea(tarea, tiempo_sistema):
+def resolver_tarea(tarea, tiempo_sistema,lista_administradores):
+
+  if not any(a.alguien_puede_resolver(tarea) for a in lista_administradores):
+    return
 
   administrador = next(administrador for administrador in lista_administradores if administrador.alguien_puede_resolver(tarea))
 
-  if not administrador:
-    return False
-
   tiempo_finalizacion = tiempo_sistema + administrador.tiempo_resolucion_tarea(tarea)
 
-  administrador.poner_a_resolver_hasta(tiempo_finalizacion)
+  administrador.poner_a_resolver_tarea(tarea)
 
   actualizar_estado_tarea(lista_tareas,tarea,fecha_inicio=tiempo_sistema,fecha_fin=tiempo_finalizacion,perfil=administrador.perfil)
 
@@ -122,10 +122,10 @@ def actualizar_tiempos_ociosos():
 
 primera_iteracion=True
 
-while tiempo_sistema < 3:
+while tiempo_sistema < 10:
 # while tiempo_sistema < tiempo_fin_simulacion:
 
-  lista_tareas = agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
+  agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
   
   # print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
 
@@ -135,11 +135,10 @@ while tiempo_sistema < 3:
 
   if hay_una_llegada( lista_tareas, tiempo_sistema):
 
-    print('HAY UNA TAREA!!')
     tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
-    resolver_tarea( tarea_a_resolver ,tiempo_sistema)
+    resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores)
       
-  elif hay_una_salida(lista_tareas,tiempo_sistema):
+  if hay_una_salida(lista_tareas,tiempo_sistema):
     tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
     finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema)
       
