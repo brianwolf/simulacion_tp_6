@@ -1,5 +1,5 @@
 from enum import Enum
-from random import choice
+from numpy.random import choice
 
 class Tarea:
     def __init__(self, tarea_spec: dict):
@@ -8,25 +8,25 @@ class Tarea:
         self.fecha_creacion = tarea_spec['fecha_creacion']
         self.fecha_inicio = tarea_spec['fecha_inicio']
         self.fecha_fin = tarea_spec['fecha_fin']
+    
+    def get_dict(self):
+        return {'tipo_tarea': self.tipo_tarea.value[0],
+                'perfil': None if self.perfil is None else self.perfil.value,
+                'fecha_creacion': self.fecha_creacion,
+                'fecha_inicio': self.fecha_inicio,
+                'fecha_fin': self.fecha_fin}
 
 class DificultadTarea(Enum):
-    Caotica = ("Caotico",0.7),
-    Complicada = ("Complicado",0.37),
-    Simple = ("Simple",0.25),
+    Caotica = ("Caotico",0.07)
+    Complicada = ("Complicado",0.37)
+    Simple = ("Simple",0.25)
     Compleja = ("Complejo",0.31)
-
-    def string_value(self,val):
-        if type(val) is not str:
-            return self.string_value(val[0])
-        return val
-
-    def name(self):
-        return self.string_value(self.value)
 
 def generar_tipo_tarea_aleatoria()->DificultadTarea:
     dificultades = [dificultad for dificultad in DificultadTarea]
+    probabilidades = [d.value[1] for d in dificultades]
 
-    return choice(dificultades, 1,p=[d.value[1] for d in dificultades])
+    return choice(dificultades, size=1,p=probabilidades,replace=True)[0]
 
 def generar_intervalo_de_arribo():
     return 1
@@ -41,22 +41,21 @@ def generar_tarea_aleatoria(tiempo_sistema):
     tarea_spec['fecha_creacion'] = generar_fecha_creacion_aleatoria(tiempo_sistema)
     tarea_spec['fecha_inicio'] = None
     tarea_spec['fecha_fin'] = None
-    
-    return Tarea(tarea_spec)
 
+    return Tarea(tarea_spec)
 
 def se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas) -> bool:
     if not lista_tareas:
         return False
 
-    tarea:Tarea=lista_tareas.sort(key="fecha_creacion")[0]
+    tarea:Tarea=sorted(lista_tareas, key=lambda t: t.fecha_creacion)[0]
 
     return tarea.fecha_creacion<=tiempo_sistema
 
 
-def agregar_nueva_tarea(lista_tareas, tiempo_sistema):
+def agregar_nueva_tarea(lista_tareas, tiempo_sistema,primera_iteracion=False):
 
-    if not se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas):
+    if not primera_iteracion and not se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas):
         return lista_tareas
 
     tarea_nueva = generar_tarea_aleatoria(tiempo_sistema)

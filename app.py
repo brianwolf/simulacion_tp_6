@@ -32,11 +32,11 @@ class ResultadoSimulacion:
       tareas_de_dificultad = list(filter(lambda t: t.tipo_tarea==dificultad,self.historico_tareas))
       cant_tareas = max(len(tareas_de_dificultad),1)
       promedio = sum(map(lambda t : t.fecha_fin-t.fecha_creacion ,tareas_de_dificultad))/cant_tareas
-      tiempos_promedio_por_dificultad.append((dificultad.name(),promedio))
+      tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
     return tiempos_promedio_por_dificultad
 
   def calcular_porcentajes_de_tiempos_de_ocio(self):
-    return [{"perfil":e["perfil"].name(),"porcentaje":e["tiempo_ocioso"]/(e["cantidad_programadores"]*self.tiempo_finalizacion)} for e in self.tiempos_de_ocio]
+    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(e["cantidad_programadores"]*self.tiempo_finalizacion)} for e in self.tiempos_de_ocio]
   
   def calcular_porcentaje_de_tareas_realizadas(self,lista_tareas):
     H = len(historico_tareas)
@@ -114,21 +114,29 @@ def obtener_tarea( lista_tareas, tiempo_sistema ,evento:EventoTarea)->Tarea:
 
 def actualizar_tiempos_ociosos():
   for admin in lista_administradores:
-    resultado_simulacion.agregar_tiempo_ocioso(admin.perfil,admin.programadores_disponibles)
+    resultado_simulacion.agregar_tiempo_ocioso(admin.perfil,admin.programadores_disponibles())
 
 # --------------------------------------
 # SIMULACION
 # --------------------------------------
+
+primera_iteracion=True
+
 while tiempo_sistema < tiempo_fin_simulacion:
 
-  lista_tareas = agregar_nueva_tarea(lista_tareas,tiempo_sistema)
+  lista_tareas = agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
+  
+  print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
+
+  primera_iteracion=False
 
   actualizar_tiempos_ociosos()
 
   if hay_una_llegada( lista_tareas, tiempo_sistema):
-      
-      tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
-      resolver_tarea( tarea_a_resolver )
+
+    print('HAY UNA TAREA!!')
+    tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
+    resolver_tarea( tarea_a_resolver )
       
   elif hay_una_salida(lista_tareas,tiempo_sistema):
     tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
