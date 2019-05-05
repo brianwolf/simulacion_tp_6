@@ -27,6 +27,42 @@ Para levantar el proyecto solo es necesario ejecutar el siguiente comando
 python app.py
 ```
 
+### Ejemplo de respuesta
+```json
+{
+  "PTR": 0.2543,
+  "TPR": [
+    {
+      "Caotico": 0
+    },
+    {
+      "Complicado": 9.988196721311475
+    },
+    {
+      "Simple": 9.976377952755906
+    },
+    {
+      "Complejo": 2.5
+    }
+  ],
+  "PTO": [
+    {
+      "perfil": "junior",
+      "porcentaje": 0.15506666666666666
+    },
+    {
+      "perfil": "semisenior",
+      "porcentaje": 0.0012
+    },
+    {
+      "perfil": "senior",
+      "porcentaje": 0.0008
+    }
+  ]
+}
+```
+
+
 ## Construido con:
 
 * [Python](https://docs.python.org/3/) - Proyecto
