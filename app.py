@@ -40,8 +40,12 @@ class ResultadoSimulacion:
     #   print(f'TAREAS {dificultad.value[0]}: {tareas_de_dificultad}\n')
       cant_tareas = max(len(tareas_de_dificultad),1)
       promedio = sum(map(lambda t : t.fecha_fin-t.fecha_creacion ,tareas_de_dificultad))/cant_tareas
-      tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
+      
+      #Fix para un json mas amigable, en vez de tener ('Caotico', 1.0) lo cambio por {"Caotico":1.0}
+      #tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
+      tiempos_promedio_por_dificultad.append({dificultad.value[0]:promedio})
 
+      
     return tiempos_promedio_por_dificultad
 
   def calcular_porcentajes_de_tiempos_de_ocio(self):
