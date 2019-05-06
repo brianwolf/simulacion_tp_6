@@ -1,5 +1,15 @@
 from enum import Enum
 from numpy.random import choice
+from configuracion import probabilidad_tipo_tarea
+import datetime
+
+def converter(o):
+    if isinstance(o, datetime.datetime):
+        return o.strftime("%d/%m/%yT%H:%M:%SZ")
+    elif isinstance(o, datetime.date):
+        return o.strftime("%d/%m/%y")
+    else:
+        return str(o) 
 
 
 class Tarea:
@@ -13,9 +23,9 @@ class Tarea:
     def get_dict(self):
         return {'tipo_tarea': None if self.tipo_tarea is None else self.tipo_tarea.value[0],
                 'perfil': None if self.perfil is None else self.perfil.value,
-                'fecha_creacion': self.fecha_creacion,
-                'fecha_inicio': self.fecha_inicio,
-                'fecha_fin': self.fecha_fin}
+                'fecha_creacion': converter(self.fecha_creacion),
+                'fecha_inicio': converter(self.fecha_inicio),
+                'fecha_fin': converter(self.fecha_fin)}
 
     def id(self):
         return self.tipo_tarea,self.fecha_creacion
@@ -30,10 +40,10 @@ class Tarea:
         return self.id()==other.id()
 
 class DificultadTarea(Enum):
-    Caotica = ("Caotico",0.07)
-    Complicada = ("Complicado",0.37)
-    Simple = ("Simple",0.25)
-    Compleja = ("Complejo",0.31)
+    Caotica = ("Caotico",probabilidad_tipo_tarea("Caotico"))
+    Complicada = ("Complicado",probabilidad_tipo_tarea("Complicado"))
+    Simple = ("Simple",probabilidad_tipo_tarea("Simple"))
+    Compleja = ("Complejo",probabilidad_tipo_tarea("Complejo"))
 
 def generar_tipo_tarea_aleatoria()->DificultadTarea:
     dificultades = [dificultad for dificultad in DificultadTarea]

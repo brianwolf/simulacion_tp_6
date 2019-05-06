@@ -1,5 +1,7 @@
 from administrador_tareas import Tarea,DificultadTarea
 from enum import Enum
+from numpy.random import choice
+from configuracion import tiempos_de_resolucion_probables_de
 
 class PefilProgramador(Enum):
     Junior = "junior"
@@ -19,7 +21,11 @@ class Administrador:
         raise NotImplementedError("Administrador no esta implementando 'alguien_puede_resolver'")
 
     def tiempo_resolucion_tarea(self,tarea):
-        raise NotImplementedError("Administrador no esta implementando 'tiempo_resolucion_tarea'")
+        tiempos_de_resolucion = self.tiempos_de_resolucion_probables()
+        return choice([tdr[0] for tdr in tiempos_de_resolucion], size=1,p=[tdr[1] for tdr in tiempos_de_resolucion],replace=True)[0]
+
+    def tiempos_de_resolucion_probables(self):
+        return tiempos_de_resolucion_probables_de(self.perfil.value)
 
     def poner_a_resolver_tarea(self,tarea):
         self.programadores_ocupados+=1
@@ -41,10 +47,6 @@ class AdministradorJuniors(Administrador):
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0 and tarea.tipo_tarea in [DificultadTarea.Simple,DificultadTarea.Complicada]
 
-    def tiempo_resolucion_tarea(self,tarea:Tarea):
-        return 10
-    
-    
 class AdministradorSemiseniors(Administrador):
     def __init__(self, nro_programadores):
         self.perfil = PefilProgramador.Semisenior
@@ -53,9 +55,6 @@ class AdministradorSemiseniors(Administrador):
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0 and tarea.tipo_tarea != DificultadTarea.Caotica
     
-    def tiempo_resolucion_tarea(self,tarea:Tarea):
-        return 4
-
 
 class AdministradorSeniors(Administrador):
     def __init__(self, nro_programadores):
@@ -64,7 +63,3 @@ class AdministradorSeniors(Administrador):
     
     def alguien_puede_resolver(self,tarea:Tarea)->bool:
         return self.programadores_disponibles()>0
-
-    def tiempo_resolucion_tarea(self,tarea:Tarea):
-        return 1
-

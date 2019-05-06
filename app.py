@@ -25,7 +25,7 @@ class ResultadoSimulacion:
     porcentajes_de_tiempos_de_ocio = self.calcular_porcentajes_de_tiempos_de_ocio()
     porcentaje_de_tareas_realizadas = self.calcular_porcentaje_de_tareas_realizadas(lista_tareas)
 
-    print(f'TAREAS SIN HACER: {lista_tareas}\n')
+    # print(f'TAREAS SIN HACER: {lista_tareas}\n')
 
     return {"PTR":porcentaje_de_tareas_realizadas,"TPR":tiempos_de_resolucion_promedio,"PTO":porcentajes_de_tiempos_de_ocio}
 
@@ -37,7 +37,7 @@ class ResultadoSimulacion:
 
     for dificultad in DificultadTarea:
       tareas_de_dificultad = list(filter(lambda t: t.tipo_tarea==dificultad,self.historico_tareas))
-      print(f'TAREAS {dificultad.value[0]}: {tareas_de_dificultad}\n')
+    #   print(f'TAREAS {dificultad.value[0]}: {tareas_de_dificultad}\n')
       cant_tareas = max(len(tareas_de_dificultad),1)
       promedio = sum(map(lambda t : t.fecha_fin-t.fecha_creacion ,tareas_de_dificultad))/cant_tareas
       tiempos_promedio_por_dificultad.append((dificultad.value[0],promedio))
@@ -71,8 +71,8 @@ lista_administradores = [administrador_juniors, administrador_semiseniors, admin
 # --------------------------------------
 # VARIABLES DE ESTADO
 # --------------------------------------
-tiempo_sistema = 0
-lista_tareas = []
+# tiempo_sistema = 0
+# lista_tareas = []
 
 
 tiempo_juniors = 0
@@ -89,7 +89,7 @@ def incrementar_tiempo_sistema(lista_administradores, tiempo_sistema):
   return tiempo_sistema + 1
 
 
-def resolver_tarea(tarea, tiempo_sistema,lista_administradores):
+def resolver_tarea(tarea, tiempo_sistema,lista_administradores,lista_tareas):
 
   if not any(a.alguien_puede_resolver(tarea) for a in lista_administradores):
     return
@@ -102,7 +102,7 @@ def resolver_tarea(tarea, tiempo_sistema,lista_administradores):
 
   actualizar_estado_tarea(lista_tareas,tarea,fecha_inicio=tiempo_sistema,fecha_fin=tiempo_finalizacion,perfil=administrador.perfil)
 
-def finalizar_tarea(tarea_finalizada, lista_administradores, tiempo_sistema):
+def finalizar_tarea(tarea_finalizada, lista_administradores, tiempo_sistema,lista_tareas):
 
   historico_tareas.append(tarea_finalizada)
   lista_tareas.remove(tarea_finalizada)
@@ -129,38 +129,47 @@ def actualizar_tiempos_ociosos():
 # SIMULACION
 # --------------------------------------
 
-primera_iteracion=True
-bar = Bar('Processing', max=tiempo_fin_simulacion)
+def realizar_simulacion(lista_tareas,simulacion_principal=True):
 
-while tiempo_sistema < tiempo_fin_simulacion:
+  primera_iteracion=True
+  bar = Bar('Processing', max=tiempo_fin_simulacion)
+  tiempo_sistema=0
 
-  bar.next()
+  while tiempo_sistema < tiempo_fin_simulacion:
 
-  agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
-  
-  # print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
+    bar.next()
 
-  primera_iteracion=False
+    agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
+    
+    # print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
 
-  actualizar_tiempos_ociosos()
+    primera_iteracion=False
 
-  if hay_una_llegada( lista_tareas, tiempo_sistema):
+    actualizar_tiempos_ociosos()
 
-    tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
-    resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores)
-      
-  if hay_una_salida(lista_tareas,tiempo_sistema):
-    tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
-    finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema)
-      
-  tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)
+    if hay_una_llegada( lista_tareas, tiempo_sistema):
 
-bar.finish()
+      tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
+      resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores,lista_tareas)
+        
+    if hay_una_salida(lista_tareas,tiempo_sistema):
+      tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
+      finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema,lista_tareas)
+        
+    tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)
 
-resultado_simulacion.historico_tareas = historico_tareas
-metricas = resultado_simulacion.generar_metricas(lista_tareas)
+  bar.finish()
 
-print(metricas)
+  if not simulacion_principal:
+    return historico_tareas
+
+  resultado_simulacion.historico_tareas = historico_tareas
+  metricas = resultado_simulacion.generar_metricas(lista_tareas)
+
+  print(metricas)
+
+if __name__ == "__main__":
+    realizar_simulacion([])
 
 
 
