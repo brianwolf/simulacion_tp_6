@@ -32,7 +32,7 @@ class UnidadTiempo(Enum):
 
 
 class ProbabilidadTiempo():
-    def __init__(self, tiempo, probabilidad,unidad_tiempo=UnidadTiempo.Minutos):
+    def __init__(self, tiempo, probabilidad,unidad_tiempo=UnidadTiempo.Horas):
         self.tiempo = round(unidad_tiempo.llevar_a_horas(tiempo))
         self.probabilidad = probabilidad
 
