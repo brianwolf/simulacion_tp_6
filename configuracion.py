@@ -91,83 +91,76 @@ configuracion = obtener_configuracion_de_archivo("./configuracion.json")
 # ----------------------------------------------------
 
 probabilidades_simple_junior = [
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.1),
-    ProbabilidadTiempo(240, 0.1),
-    ProbabilidadTiempo(240,0.25),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(1, 0.1),
+    ProbabilidadTiempo(2, 0.1),
+    ProbabilidadTiempo(4,0.2),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16,0.3),
 ]
 
 probabilidades_simple_semisenior = [
-    ProbabilidadTiempo(30, 0.3),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(240, 0.3),
-    ProbabilidadTiempo(480,0.2)
+    ProbabilidadTiempo(1, 0.2),
+    ProbabilidadTiempo(4, 0.2),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16,0.3)
 ]
 
 probabilidades_simple_senior = [
-    ProbabilidadTiempo(240,0.7),
-    ProbabilidadTiempo(480,0.3)
+    ProbabilidadTiempo(2,0.7),
+    ProbabilidadTiempo(4,0.3)
 ]
 
 probabilidades_complicado_junior = [
-    ProbabilidadTiempo(20, 0.05),
-    ProbabilidadTiempo(30, 0.2),
-    ProbabilidadTiempo(60, 0.3),
-    ProbabilidadTiempo(120,0.10),
-    ProbabilidadTiempo(240,0.1),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(4, 0.1),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16,0.3),
+    ProbabilidadTiempo(24, 0.2),
+    ProbabilidadTiempo(32,0.1)
 ]
 
 probabilidades_complicado_semisenior = [
-    ProbabilidadTiempo(30, 0.2),
-    ProbabilidadTiempo(60, 0.1),
-    ProbabilidadTiempo(120,0.10),
-    ProbabilidadTiempo(240,0.35),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(4, 0.2),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16,0.3),
+    ProbabilidadTiempo(24, 0.2)
 ]
 
 probabilidades_complicado_senior = [
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240,0.3),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(4, 0.2),
+    ProbabilidadTiempo(8, 0.5),
+    ProbabilidadTiempo(16,0.3)
 ]
 
 probabilidades_complejo_semisenior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.1),
-    ProbabilidadTiempo(120,0.2),
-    ProbabilidadTiempo(240,0.3),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(2, 0.05),
+    ProbabilidadTiempo(4, 0.1),
+    ProbabilidadTiempo(8, 0.1),
+    ProbabilidadTiempo(16,0.2),
+    ProbabilidadTiempo(32,0.3),
+    ProbabilidadTiempo(48,0.25)
 ]
 
 probabilidades_complejo_senior = [
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240,0.3),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(2, 0.2),
+    ProbabilidadTiempo(4, 0.3),
+    ProbabilidadTiempo(8, 0.2),
+    ProbabilidadTiempo(16,0.2),
+    ProbabilidadTiempo(32,0.1)
 ]
 
 probabilidades_caotico_semisenior = [
-    ProbabilidadTiempo(60, 0.3),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(240,0.3),
-    ProbabilidadTiempo(480,0.20)
+    ProbabilidadTiempo(4, 0.2),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16, 0.1),
+    ProbabilidadTiempo(32,0.3),
+    ProbabilidadTiempo(48,0.1)
 ]
 
 probabilidades_caotico_senior = [
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.1),
-    ProbabilidadTiempo(240,0.2),
-    ProbabilidadTiempo(240, 0.15),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(4, 0.3),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16, 0.2),
+    ProbabilidadTiempo(32,0.2)
 ]
 
 lista_probabilidades_arribo = [
