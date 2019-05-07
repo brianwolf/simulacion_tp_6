@@ -21,11 +21,15 @@ class Administrador:
         raise NotImplementedError("Administrador no esta implementando 'alguien_puede_resolver'")
 
     def tiempo_resolucion_tarea(self,tarea):
-        tiempos_de_resolucion = self.tiempos_de_resolucion_probables()
-        return choice([tdr[0] for tdr in tiempos_de_resolucion], size=1,p=[tdr[1] for tdr in tiempos_de_resolucion],replace=True)[0]
+        tiempos_de_resolucion = self.tiempos_de_resolucion_probables(tarea)
+        try:
+            return choice([tdr[0] for tdr in tiempos_de_resolucion], size=1,p=[tdr[1] for tdr in tiempos_de_resolucion],replace=True)[0]
+        except Exception as e:
+            print(f'HUBO UN ERROR CON LA PROBABILIDAD DE {tarea.tipo_tarea} y {self.perfil}')
+            raise e
 
-    def tiempos_de_resolucion_probables(self):
-        return tiempos_de_resolucion_probables_de(self.perfil.value)
+    def tiempos_de_resolucion_probables(self,tarea):
+        return tiempos_de_resolucion_probables_de(self.perfil.value,tarea.tipo_tarea.value[0])
 
     def poner_a_resolver_tarea(self,tarea):
         self.programadores_ocupados+=1

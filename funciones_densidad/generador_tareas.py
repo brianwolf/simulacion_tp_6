@@ -26,41 +26,41 @@ class TareaConfig():
 # ----------------------------------------------------
 
 probabilidades_facil_junior = [
-    ProbabilidadTiempo(240, 0.05),
     ProbabilidadTiempo(30, 0.1),
     ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240,0.3),
+    ProbabilidadTiempo(120,0.1),
+    ProbabilidadTiempo(240, 0.1),
+    ProbabilidadTiempo(240,0.25),
     ProbabilidadTiempo(480,0.25)
 ]
 
 probabilidades_facil_semisenior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(30, 0.1),
+    ProbabilidadTiempo(30, 0.3),
     ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(240, 0.3),
+    ProbabilidadTiempo(480,0.2)
 ]
 
 probabilidades_facil_senior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(240,0.7),
+    ProbabilidadTiempo(480,0.3)
 ]
 
 probabilidades_complicado_junior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240,0.3),
+    ProbabilidadTiempo(20, 0.05),
+    ProbabilidadTiempo(30, 0.2),
+    ProbabilidadTiempo(60, 0.3),
+    ProbabilidadTiempo(120,0.10),
+    ProbabilidadTiempo(240,0.5),
     ProbabilidadTiempo(480,0.25)
 ]
 
 probabilidades_complicado_semisenior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
-    ProbabilidadTiempo(240,0.3),
+    ProbabilidadTiempo(20, 0.05),
+    ProbabilidadTiempo(30, 0.2),
+    ProbabilidadTiempo(60, 0.1),
+    ProbabilidadTiempo(120,0.10),
+    ProbabilidadTiempo(240,0.3.5),
     ProbabilidadTiempo(480,0.25)
 ]
 
@@ -83,7 +83,6 @@ probabilidades_complejo_semisenior = [
 ]
 
 probabilidades_complejo_senior = [
-    ProbabilidadTiempo(240, 0.05),
     ProbabilidadTiempo(30, 0.1),
     ProbabilidadTiempo(60, 0.2),
     ProbabilidadTiempo(120,0.15),
@@ -92,20 +91,19 @@ probabilidades_complejo_senior = [
 ]
 
 probabilidades_caotico_semisenior = [
-    ProbabilidadTiempo(240, 0.05),
-    ProbabilidadTiempo(30, 0.1),
-    ProbabilidadTiempo(60, 0.2),
+    ProbabilidadTiempo(60, 0.3),
     ProbabilidadTiempo(120,0.15),
+    ProbabilidadTiempo(240, 0.05),
     ProbabilidadTiempo(240,0.3),
-    ProbabilidadTiempo(480,0.25)
+    ProbabilidadTiempo(480,0.20)
 ]
 
 probabilidades_caotico_senior = [
-    ProbabilidadTiempo(240, 0.05),
     ProbabilidadTiempo(30, 0.1),
     ProbabilidadTiempo(60, 0.2),
-    ProbabilidadTiempo(120,0.15),
+    ProbabilidadTiempo(120,0.1),
     ProbabilidadTiempo(240,0.3),
+    ProbabilidadTiempo(240, 0.05),
     ProbabilidadTiempo(480,0.25)
 ]
 

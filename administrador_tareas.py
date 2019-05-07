@@ -1,6 +1,6 @@
 from enum import Enum
 from numpy.random import choice
-from configuracion import probabilidad_tipo_tarea
+from configuracion import probabilidad_tipo_tarea,intervalo_de_arribo
 import datetime
 
 def converter(o):
@@ -55,7 +55,7 @@ def generar_intervalo_de_arribo():
     return 1
     
 def generar_fecha_creacion_aleatoria(tiempo_sistema):
-    return tiempo_sistema+generar_intervalo_de_arribo()
+    return tiempo_sistema+intervalo_de_arribo(tiempo_sistema)
 
 def generar_tarea_aleatoria(tiempo_sistema):
     tarea_spec = {}
@@ -83,6 +83,8 @@ def agregar_nueva_tarea(lista_tareas, tiempo_sistema,primera_iteracion=False):
     tarea_nueva = generar_tarea_aleatoria(tiempo_sistema)
     lista_tareas.append(tarea_nueva)
 
+    return lista_tareas
+
 def actualizar_estado_tarea(lista_tareas,tarea:Tarea,fecha_inicio,fecha_fin,perfil):
     lista_tareas.remove(tarea)
     tarea.fecha_inicio=fecha_inicio
@@ -90,5 +92,7 @@ def actualizar_estado_tarea(lista_tareas,tarea:Tarea,fecha_inicio,fecha_fin,perf
     tarea.perfil = perfil
 
     lista_tareas.append(tarea)
+
+    return lista_tareas
     
 
