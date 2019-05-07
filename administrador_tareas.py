@@ -30,6 +30,9 @@ class Tarea:
     def id(self):
         return self.tipo_tarea,self.fecha_creacion
 
+    def __hash__(self):
+        return hash(self.id())
+
     def __repr__(self):
         return self.__str__()
 

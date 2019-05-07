@@ -5,7 +5,8 @@ from administradores import AdministradorJuniors, AdministradorSemiseniors, Admi
 from enum import Enum
 from progress.bar import Bar
 import json
-
+import builtins
+from configuracion import print
 
 class EventoTarea(Enum):
   Llegada = "Llegada",
@@ -33,7 +34,7 @@ class ResultadoSimulacion:
   def calcular_tiempos_resolucion_promedio(self):
     tiempos_promedio_por_dificultad = []
 
-    print(f'TAREAS HISTORICO: {len(self.historico_tareas)}\n')
+    print(f'TAREAS HECHAS: {len(self.historico_tareas)}\n')
     print(f'OCIO:{self.tiempos_de_ocio}\n')
 
     for dificultad in DificultadTarea:
@@ -118,7 +119,8 @@ def finalizar_tarea(tarea_finalizada, lista_administradores, tiempo_sistema,list
   return lista_tareas
 
 def hay_una_llegada( lista_tareas, tiempo_sistema)->bool:
-    return any(tarea.fecha_creacion==tiempo_sistema for tarea in lista_tareas)
+    hay_llegada = any(tarea.fecha_creacion==tiempo_sistema for tarea in lista_tareas)
+    return hay_llegada
 
 def hay_una_salida( lista_tareas, tiempo_sistema)->bool:
   return any(tarea.fecha_fin==tiempo_sistema for tarea in lista_tareas)
@@ -132,13 +134,19 @@ def actualizar_tiempos_ociosos():
   for admin in lista_administradores:
     resultado_simulacion.agregar_tiempo_ocioso(admin.perfil,admin.programadores_disponibles())
 
-def grabar_data_en_json(data):
-    RUTA_JSON_SALIDA = './tareas.json'
+def grabar_data_en_json(tareas_sin_hacer,tareas_hechas):
+    RUTA_JSON_SALIDA = './tareas_sin_hacer.json'
     archivo_salida = open(RUTA_JSON_SALIDA,"w+")
-    archivo_salida.write(str(json.dumps(data)))
+    archivo_salida.write(str(json.dumps(tareas_sin_hacer)))
+    RUTA_JSON_SALIDA = './tareas_hechas.json'
+    archivo_salida = open(RUTA_JSON_SALIDA,"w+")
+    archivo_salida.write(str(json.dumps(tareas_hechas)))
 
 def quitar_tareas_rancias(lista_tareas,tiempo_fin_simulacion):
   return list(filter(lambda t:t.fecha_creacion<tiempo_fin_simulacion,lista_tareas))
+
+def quitar_tareas_repetidas(lista_tareas):
+  return list(dict.fromkeys(lista_tareas))
 
 # --------------------------------------
 # SIMULACION
@@ -147,6 +155,7 @@ def quitar_tareas_rancias(lista_tareas,tiempo_fin_simulacion):
 def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True):
 
   primera_iteracion=True
+  
   if progress_bar:
     bar = Bar('Processing', max=tiempo_fin_simulacion)
   tiempo_sistema=0
@@ -157,6 +166,8 @@ def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True
       bar.next()
 
     lista_tareas = agregar_nueva_tarea(lista_tareas,tiempo_sistema,primera_iteracion=primera_iteracion)
+
+    lista_tareas = quitar_tareas_repetidas(lista_tareas)
     
     # print(f"LISTA DE TAREAS: {list(map(lambda e:e.get_dict(),lista_tareas))}")
 
@@ -169,7 +180,7 @@ def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True
       tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
       lista_tareas = resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores,lista_tareas)
         
-    if hay_una_salida(lista_tareas,tiempo_sistema):
+    while hay_una_salida(lista_tareas,tiempo_sistema):
       tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
       lista_tareas = finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema,lista_tareas)
         
@@ -180,14 +191,16 @@ def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True
 
   if not simulacion_principal:
     return historico_tareas
-  print(f"TAREAS SIN HACER SIN FILTRAR:{len(lista_tareas)}")
+
   lista_tareas = quitar_tareas_rancias(lista_tareas,tiempo_fin_simulacion)
   resultado_simulacion.historico_tareas = historico_tareas
   metricas = resultado_simulacion.generar_metricas(lista_tareas)
 
-  grabar_data_en_json(list(map(lambda e:e.get_dict(),lista_tareas)))
+  grabar_data_en_json(list(map(lambda e:e.get_dict(),lista_tareas)),list(map(lambda e:e.get_dict(),historico_tareas)))
+  # grabar_data_en_json(lista_tareas,historico_tareas)
 
-  print(metricas)
+  print(f"{metricas}\n")
+  print(f"CONFIGURACION: {configuracion.get_config()}")
 
 if __name__ == "__main__":
     realizar_simulacion([],progress_bar=True)
