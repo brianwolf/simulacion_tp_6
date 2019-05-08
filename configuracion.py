@@ -29,8 +29,6 @@ class UnidadTiempo(Enum):
             return un_tiempo/60
         return un_tiempo
 
-
-
 class ProbabilidadTiempo():
     def __init__(self, tiempo, probabilidad,unidad_tiempo=UnidadTiempo.Horas):
         self.tiempo = round(unidad_tiempo.llevar_a_horas(tiempo))
@@ -53,13 +51,14 @@ class Configuracion():
 
     def calcular_fecha_fin(self,fecha_inicial:datetime,tiempo_fin:int,unidad_tiempo:UnidadTiempo)->datetime:
         tiempo_fin_minutos = unidad_tiempo.llevar_a_minutos(tiempo_fin)
-        dias = tiempo_fin_minutos/(8*60)
+        dias = round(tiempo_fin_minutos/(8*60))
         meses_laborales = round(dias/20)
         dias_laborales = round(max(meses_laborales*30,dias))
-        minutos = round(tiempo_fin_minutos-dias_laborales*8*60)
+        minutos = tiempo_fin_minutos-dias*8*60
         print(f"CALCULANDO FECHA CON: tm:{tiempo_fin_minutos},d:{dias},ml:{meses_laborales},dl:{dias_laborales},m:{minutos}",logging=self.logging)
         fecha_fin = fecha_inicial+timedelta(days=dias_laborales)+timedelta(minutes=minutos)
         return fecha_fin
+
     def __str__(self):
         return str(self.dict())
 

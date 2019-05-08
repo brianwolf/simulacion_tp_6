@@ -6,7 +6,7 @@ from enum import Enum
 from progress.bar import Bar
 import json
 import builtins
-from configuracion import print
+from configuracion import print,intervalo_de_arribo
 
 class EventoTarea(Enum):
   Llegada = "Llegada",
@@ -51,7 +51,7 @@ class ResultadoSimulacion:
     return tiempos_promedio_por_dificultad
 
   def calcular_porcentajes_de_tiempos_de_ocio(self):
-    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(self.tiempo_finalizacion*e["cantidad_programadores"])} for e in self.tiempos_de_ocio]
+    return [{"perfil":e["perfil"].value,"porcentaje":e["tiempo_ocioso"]/(max(1,self.tiempo_finalizacion*e["cantidad_programadores"]))} for e in self.tiempos_de_ocio]
   
   def calcular_porcentaje_de_tareas_realizadas(self,lista_tareas):
     H = len(historico_tareas)
@@ -93,11 +93,14 @@ resultado_simulacion = ResultadoSimulacion(tiempo_fin_simulacion,lista_administr
 
 def incrementar_tiempo_sistema(lista_administradores, tiempo_sistema):
   return tiempo_sistema + 1
+  # return tiempo_sistema + intervalo_de_arribo(tiempo_sistema)
 
 
-def resolver_tarea(tarea, tiempo_sistema,lista_administradores,lista_tareas):
+def resolver_tarea(tarea, tiempo_sistema,lista_administradores,lista_tareas,tareas_a_reintentar):
 
   if not any(a.alguien_puede_resolver(tarea) for a in lista_administradores):
+    lista_tareas.remove(tarea)
+    tareas_a_reintentar.append(tarea)
     return lista_tareas
 
   administrador = next(administrador for administrador in lista_administradores if administrador.alguien_puede_resolver(tarea))
@@ -118,17 +121,18 @@ def finalizar_tarea(tarea_finalizada, lista_administradores, tiempo_sistema,list
 
   return lista_tareas
 
-def hay_una_llegada( lista_tareas, tiempo_sistema)->bool:
-    hay_llegada = any(tarea.fecha_creacion==tiempo_sistema for tarea in lista_tareas)
+def hay_una_llegada( lista_tareas, tiempo_sistema,lista_administradores)->bool:
+    hay_llegada = any(tarea.fecha_creacion<=tiempo_sistema and tarea.fecha_inicio is None for tarea in lista_tareas)
+
     return hay_llegada
 
 def hay_una_salida( lista_tareas, tiempo_sistema)->bool:
-  return any(tarea.fecha_fin==tiempo_sistema for tarea in lista_tareas)
+  return any(tarea.fecha_fin is not None and tarea.fecha_fin is not None and tarea.fecha_fin<=tiempo_sistema for tarea in lista_tareas)
 
 def obtener_tarea( lista_tareas, tiempo_sistema ,evento:EventoTarea)->Tarea:
   
-  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.Llegada and tarea.fecha_creacion==tiempo_sistema) or
-                                                  (evento==EventoTarea.Salida and tarea.fecha_fin==tiempo_sistema))
+  return next(tarea for tarea in lista_tareas if (evento==EventoTarea.Llegada and tarea.fecha_creacion is not None and tarea.fecha_creacion<=tiempo_sistema and tarea.fecha_inicio is None) 
+                                                 or (evento==EventoTarea.Salida and tarea.fecha_fin is not None and tarea.fecha_fin<=tiempo_sistema))
 
 def actualizar_tiempos_ociosos():
   for admin in lista_administradores:
@@ -160,7 +164,10 @@ def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True
     bar = Bar('Processing', max=tiempo_fin_simulacion)
   tiempo_sistema=0
 
+
   while tiempo_sistema < tiempo_fin_simulacion:
+
+    tareas_a_reintentar=[]
 
     if progress_bar:
       bar.next()
@@ -173,18 +180,20 @@ def realizar_simulacion(lista_tareas,simulacion_principal=True,progress_bar=True
 
     primera_iteracion=False
 
-    actualizar_tiempos_ociosos()
 
-    if hay_una_llegada( lista_tareas, tiempo_sistema):
+    while hay_una_llegada( lista_tareas, tiempo_sistema,lista_administradores):
 
       tarea_a_resolver = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Llegada)
-      lista_tareas = resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores,lista_tareas)
-        
+      lista_tareas = resolver_tarea( tarea_a_resolver ,tiempo_sistema,lista_administradores,lista_tareas,tareas_a_reintentar)
+
+    actualizar_tiempos_ociosos()
+
     while hay_una_salida(lista_tareas,tiempo_sistema):
       tarea_a_finalizar = obtener_tarea( lista_tareas, tiempo_sistema ,evento=EventoTarea.Salida)
       lista_tareas = finalizar_tarea(tarea_a_finalizar,lista_administradores,tiempo_sistema,lista_tareas)
         
     tiempo_sistema = incrementar_tiempo_sistema(lista_administradores,tiempo_sistema)
+    lista_tareas=lista_tareas+tareas_a_reintentar
 
   if progress_bar:
     bar.finish()

@@ -1,10 +1,10 @@
 {
-    "cantidad_juniors" : 3,
-    "cantidad_semiseniors" : 2,
+    "cantidad_juniors" : 1,
+    "cantidad_semiseniors" : 1,
     "cantidad_seniors" : 1,
-    "tiempo_fin_simulacion":1000,
-    "unidad_tiempo":"minutos",
-    "fecha_inicial":"07/05/19T09:00:00Z",
+    "tiempo_fin_simulacion":2880,
+    "unidad_tiempo":"horas",
+    "fecha_inicial":"01/05/19T09:00:00Z",
     "formato_fecha":"%d/%m/%yT%H:%M:%SZ",
-    "logging":false
+    "logging":true
 }

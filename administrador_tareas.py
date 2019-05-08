@@ -54,11 +54,9 @@ def generar_tipo_tarea_aleatoria()->DificultadTarea:
 
     return choice(dificultades, size=1,p=probabilidades,replace=True)[0]
 
-def generar_intervalo_de_arribo():
-    return 1
-    
 def generar_fecha_creacion_aleatoria(tiempo_sistema):
     return tiempo_sistema+intervalo_de_arribo(tiempo_sistema)
+    # return tiempo_sistema
 
 def generar_tarea_aleatoria(tiempo_sistema):
     tarea_spec = {}
@@ -76,7 +74,6 @@ def se_cumplio_intervalo_de_arribo(tiempo_sistema,lista_tareas) -> bool:
     fecha_creacion_minima=min(map(lambda t:t.fecha_creacion,lista_tareas))
 
     return fecha_creacion_minima<=tiempo_sistema
-
 
 def agregar_nueva_tarea(lista_tareas, tiempo_sistema,primera_iteracion=False):
 
