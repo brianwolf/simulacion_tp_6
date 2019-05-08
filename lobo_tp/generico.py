@@ -9,7 +9,7 @@ from datetime import datetime
 # ENUMS
 # ----------------------------------------------------
 class TipoTarea(Enum):
-    FACIL = 'Simple'
+    SIMPLE = 'Simple'
     COMPLICADA = 'Complicada'
     COMPLEJA = 'Compleja'
     CAOTICA = 'Caotica'

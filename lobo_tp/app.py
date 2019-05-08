@@ -9,8 +9,14 @@ from intervalo_arribo_tarea import proximo_arribo_tarea
 # VARIABLES
 # ----------------------------------------------------
 
-tiempo = 0
+tiempo = 1
 proximo_tiempo_arribo = 0
+
+tiempos_ociosos = { 
+    generico.TipoPerfil.JUNIOR: 0,
+    generico.TipoPerfil.SEMISENIOR: 0,
+    generico.TipoPerfil.SENIOR: 0
+}
 
 tareas_encoladas = []
 tareas_hechas = []
@@ -19,18 +25,12 @@ tareas_hechas = []
 # ----------------------------------------------------
 # METODOS
 # ----------------------------------------------------
-def hay_entrada() -> bool:
-    # global tiempo, proximo_tiempo_arribo
-    # return tiempo == proximo_tiempo_arribo
-    return True
-
-
 def hay_salidas() -> bool:
     global tiempo
     return administradores.hay_salidas(tiempo)
 
 
-def alguien_esta_libre():
+def alguien_esta_libre() -> bool:
     return administradores.alguien_esta_libre()
 
 
@@ -46,11 +46,16 @@ def resolver_entrada():
     tareas_encoladas.append(tarea_nueva)
 
 
+def resolver_tiempo_ocioso():
+    global tiempos_ociosos
+
+    tiempos_ociosos[generico.TipoPerfil.JUNIOR] += administradores.obtener_tiempo_ocioso(generico.TipoPerfil.JUNIOR) 
+    tiempos_ociosos[generico.TipoPerfil.SEMISENIOR] += administradores.obtener_tiempo_ocioso(generico.TipoPerfil.SEMISENIOR) 
+    tiempos_ociosos[generico.TipoPerfil.SENIOR] += administradores.obtener_tiempo_ocioso(generico.TipoPerfil.SENIOR)
+
+
 def resolver_ponerse_a_trabajar():
     global tareas_encoladas
-
-    if not tareas_encoladas:
-        return
 
     for tarea_a_resolver in tareas_encoladas:
         
@@ -68,25 +73,20 @@ def resolver_salida():
 
 def ejecutar_simulacion():
     global proximo_tiempo_arribo, tiempo
-    proximo_tiempo_arribo = 0
-
     while tiempo < configuracion.tiempo_simulacion_horas:
 
-        # if proximo_tiempo_arribo == 0:
-        #     proximo_tiempo_arribo = proximo_arribo_tarea()
-
-        if hay_entrada():
-            resolver_entrada()
+        resolver_entrada()
 
         if alguien_esta_libre():
             resolver_ponerse_a_trabajar()
+            resolver_tiempo_ocioso()
 
         if hay_salidas():
             resolver_salida()
 
         avanzar_tiempo()
-    print('\n')
 
+    print('\n')
     print(f'HECHAS: {len(tareas_hechas)}')
     print(f'ENCOLADAS: {len(tareas_encoladas)}')
     print('\n')
@@ -102,10 +102,10 @@ def ejecutar_simulacion():
     print(f'Caoticas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.CAOTICA , tareas_hechas)))}')
     print(f'Complejas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLEJA , tareas_hechas)))}')
     print(f'Complicadas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLICADA , tareas_hechas)))}')
-    print(f'simples: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.FACIL, tareas_hechas)))}')
+    print(f'simples: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.SIMPLE, tareas_hechas)))}')
     print('\n')
     
-    print('ACOLADAS:')
+    print('ENCOLADAS:')
     print('\n')
     
     print(f'JUNIOR: {len(list(filter(lambda tarea: tarea.perfil == generico.TipoPerfil.JUNIOR , tareas_encoladas)))}')
@@ -116,10 +116,24 @@ def ejecutar_simulacion():
     print(f'Caoticas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.CAOTICA , tareas_encoladas)))}')
     print(f'Complejas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLEJA , tareas_encoladas)))}')
     print(f'Complicadas: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLICADA , tareas_encoladas)))}')
-    print(f'simples: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.FACIL, tareas_encoladas)))}')
+    print(f'simples: {len(list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.SIMPLE, tareas_encoladas)))}')
     print('\n')
     
+    print('TIEMPOS OCIOSOS')
+    print('\n')
+    print(f'SENIOR: {str(tiempos_ociosos[generico.TipoPerfil.SENIOR]/tiempo)}')
+    print(f'SEMISENIOR: {str(tiempos_ociosos[generico.TipoPerfil.SEMISENIOR]/tiempo)}')
+    print(f'JUNIOR: {str(tiempos_ociosos[generico.TipoPerfil.JUNIOR]/tiempo)}')
+    print('\n')
 
+    # print('TIEMPOS OCIOSOS')
+    # print('\n')
+    # print(f'CAOTICA: {sum([generico.fecha_a_tiempo_simulacion(tarea.fecha_fin) for tarea in list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.CAOTICA , tareas_hechas))]) / configuracion.tiempo_simulacion_horas}')
+    # print(f'COMPLEJO: {sum([generico.fecha_a_tiempo_simulacion(tarea.fecha_fin) for tarea in list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLEJA , tareas_hechas))]) / configuracion.tiempo_simulacion_horas}')
+    # print(f'COMPLICADO: {sum([generico.fecha_a_tiempo_simulacion(tarea.fecha_fin) for tarea in list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.COMPLICADA , tareas_hechas))]) / configuracion.tiempo_simulacion_horas}')
+    # print(f'SIMPLE: {sum([generico.fecha_a_tiempo_simulacion(tarea.fecha_fin) for tarea in list(filter(lambda tarea: tarea.tipo == generico.TipoTarea.SIMPLE , tareas_hechas))]) / configuracion.tiempo_simulacion_horas}')
+    # print('\n')
+    
 
 # ----------------------------------------------------
 # EJECUCION

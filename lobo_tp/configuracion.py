@@ -9,5 +9,5 @@ horario_laboral_salida = 18
 tiempo_simulacion_horas = 10000
 
 cantidad_seniors = 1
-cantidad_semiseniors = 2
-cantidad_juniors = 3
+cantidad_semiseniors = 1
+cantidad_juniors = 5

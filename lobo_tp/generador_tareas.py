@@ -106,9 +106,9 @@ probabilidades_dias_tomar_tarea = [
 
 lista_tareas_config = [
 
-        TareaConfig(TipoTarea.FACIL, TipoPerfil.JUNIOR, 0.25, probabilidades_simple_junior),
-        TareaConfig(TipoTarea.FACIL, TipoPerfil.SEMISENIOR, 0.14, probabilidades_simple_semisenior),
-        TareaConfig(TipoTarea.FACIL, TipoPerfil.SENIOR, 0.01, probabilidades_simple_senior),
+        TareaConfig(TipoTarea.SIMPLE, TipoPerfil.JUNIOR, 0.25, probabilidades_simple_junior),
+        TareaConfig(TipoTarea.SIMPLE, TipoPerfil.SEMISENIOR, 0.14, probabilidades_simple_semisenior),
+        TareaConfig(TipoTarea.SIMPLE, TipoPerfil.SENIOR, 0.01, probabilidades_simple_senior),
 
         TareaConfig(TipoTarea.COMPLICADA, TipoPerfil.JUNIOR, 0.10, probabilidades_complicado_junior),
         TareaConfig(TipoTarea.COMPLICADA, TipoPerfil.SEMISENIOR, 0.20, probabilidades_complicado_semisenior),

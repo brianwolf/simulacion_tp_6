@@ -4,9 +4,9 @@ from configuracion import cantidad_juniors, cantidad_semiseniors, cantidad_senio
 # ------------------------------------------
 # CONFIGURACION
 # ------------------------------------------
-tareas_habilitadas_senior = [TipoTarea.CAOTICA, TipoTarea.COMPLEJA, TipoTarea.COMPLICADA, TipoTarea.FACIL]
-tareas_habilitadas_semisenior = [TipoTarea.COMPLEJA, TipoTarea.COMPLICADA, TipoTarea.FACIL]
-tareas_habilitadas_junior = [TipoTarea.COMPLICADA, TipoTarea.FACIL]
+tareas_habilitadas_senior = [TipoTarea.CAOTICA, TipoTarea.COMPLEJA, TipoTarea.COMPLICADA, TipoTarea.SIMPLE]
+tareas_habilitadas_semisenior = [TipoTarea.COMPLEJA, TipoTarea.COMPLICADA, TipoTarea.SIMPLE]
+tareas_habilitadas_junior = [TipoTarea.COMPLICADA, TipoTarea.SIMPLE]
 
 
 # ------------------------------------------
@@ -70,6 +70,10 @@ class Administrador():
 
         return tareas_resueltas
 
+    
+    def obtener_tiempo_ocioso(self) -> int:
+        return self.cantidad_personas - self.personas_ocupadas
+
 
 # ------------------------------------------
 # METODOS
@@ -104,5 +108,12 @@ def resolver_salidas(tiempo_simulacion: int) -> list:
         tareas_resueltas.extend(resueltas)
 
     return tareas_resueltas
+
+
+def obtener_tiempo_ocioso(perfil: TipoPerfil) -> int:
+    global Singleton
+
+    admin = next(filter(lambda admin: admin.perfil == perfil , Singleton().admins))
+    return 0 if admin.cantidad_personas == 0 else admin.obtener_tiempo_ocioso() / admin.cantidad_personas
 
 
