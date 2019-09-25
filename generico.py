@@ -5,10 +5,10 @@ from enum import Enum
 # ENUMS
 # ----------------------------------------------------
 class TipoTarea(Enum):
-    FACIL = 'Simple'
-    COMPLICADA = 'Complicada'
-    COMPLEJA = 'Compleja'
-    CAOTICA = 'Caotica'
+    FACIL = 'facil'
+    NORMAL = 'normal'
+    DIFICIL = 'dificil'
+    IMPOSIBLE = 'imposible'
 
 
 class TipoPerfil(Enum):

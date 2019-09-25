@@ -1,0 +1,3502 @@
+[
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-13 13:22:23.783202",
+        "fecha_inicio": "2018-11-19 13:22:32.783202",
+        "fecha_fin": "2018-11-20 12:22:32.783202"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-16 14:49:20.445300",
+        "fecha_inicio": "2018-05-16 14:49:29.445300",
+        "fecha_fin": "2018-05-21 12:49:29.445300"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-04 13:38:26.643466",
+        "fecha_inicio": "2018-12-10 13:38:35.643466",
+        "fecha_fin": "2018-12-11 12:38:35.643466"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-04 11:36:54.316923",
+        "fecha_inicio": "2018-09-04 11:37:03.316923",
+        "fecha_fin": "2018-09-06 18:37:03.316923"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-13 17:36:36.941329",
+        "fecha_inicio": "2018-06-18 17:36:45.941329",
+        "fecha_fin": "2018-06-18 18:36:45.941329"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-30 12:11:34.969894",
+        "fecha_inicio": "2018-02-02 12:11:43.969894",
+        "fecha_fin": "2018-02-07 10:11:43.969894"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-22 13:53:38.757928",
+        "fecha_inicio": "2018-01-25 13:53:47.757928",
+        "fecha_fin": "2018-01-26 12:53:47.757928"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-04 15:20:35.728951",
+        "fecha_inicio": "2018-05-04 15:20:44.728951",
+        "fecha_fin": "2018-05-07 14:20:44.728951"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-30 13:59:30.630078",
+        "fecha_inicio": "2019-01-30 13:59:39.630078",
+        "fecha_fin": "2019-01-30 17:59:39.630078"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-11 10:16:21.689986",
+        "fecha_inicio": "2018-10-15 10:16:30.689986",
+        "fecha_fin": "2018-10-17 17:16:30.689986"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-23 10:28:54.619285",
+        "fecha_inicio": "2018-05-23 10:29:03.619285",
+        "fecha_fin": "2018-05-23 11:29:03.619285"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-22 16:40:59.424391",
+        "fecha_inicio": "2019-02-25 16:41:08.424391",
+        "fecha_fin": "2019-02-26 16:41:08.424391"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-10 11:05:44.075587",
+        "fecha_inicio": "2018-05-10 11:05:53.075587",
+        "fecha_fin": "2018-05-11 10:05:53.075587"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-27 18:10:35.361549",
+        "fecha_inicio": "2018-03-27 18:10:44.361549",
+        "fecha_fin": "2018-03-28 10:10:44.361549"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-04 12:44:57.078564",
+        "fecha_inicio": "2018-07-09 12:45:06.078564",
+        "fecha_fin": "2018-07-12 10:45:06.078564"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-02 11:36:36.201008",
+        "fecha_inicio": "2019-04-02 11:36:45.201008",
+        "fecha_fin": "2019-04-04 18:36:45.201008"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-08 16:26:49.281500",
+        "fecha_inicio": "2018-05-14 16:26:58.281500",
+        "fecha_fin": "2018-05-17 14:26:58.281500"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-11 17:47:47.903463",
+        "fecha_inicio": "2019-01-11 17:47:56.903463",
+        "fecha_fin": "2019-01-15 16:47:56.903463"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-26 13:35:48.772799",
+        "fecha_inicio": "2019-04-26 13:35:57.772799",
+        "fecha_fin": "2019-04-26 14:35:57.772799"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-16 11:52:26.817116",
+        "fecha_inicio": "2019-04-19 11:52:35.817116",
+        "fecha_fin": "2019-04-19 15:52:35.817116"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-25 11:22:46.734408",
+        "fecha_inicio": "2019-02-27 11:22:55.734408",
+        "fecha_fin": "2019-02-28 10:22:55.734408"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-11 16:30:35.320939",
+        "fecha_inicio": "2019-02-11 16:30:44.320939",
+        "fecha_fin": "2019-02-13 15:30:44.320939"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-27 13:14:37.105790",
+        "fecha_inicio": "2018-10-01 13:14:46.105790",
+        "fecha_fin": "2018-10-02 13:14:46.105790"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-12-28 11:08:46.427060",
+        "fecha_inicio": "2019-01-02 11:08:55.427060",
+        "fecha_fin": "2019-01-03 10:08:55.427060"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-03 11:27:26.518347",
+        "fecha_inicio": "2018-12-06 11:27:35.518347",
+        "fecha_fin": "2018-12-07 10:27:35.518347"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-15 13:33:01.429162",
+        "fecha_inicio": "2019-02-18 13:33:10.429162",
+        "fecha_fin": "2019-02-19 12:33:10.429162"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-25 14:57:37.860767",
+        "fecha_inicio": "2018-07-30 14:57:46.860767",
+        "fecha_fin": "2018-07-30 18:57:46.860767"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-12 16:18:09.374111",
+        "fecha_inicio": "2018-06-12 16:18:18.374111",
+        "fecha_fin": "2018-06-15 14:18:18.374111"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-07 10:05:53.610729",
+        "fecha_inicio": "2019-01-07 10:06:02.610729",
+        "fecha_fin": "2019-01-08 18:06:02.610729"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-03-19 12:56:22.191413",
+        "fecha_inicio": "2019-03-20 12:56:31.191413",
+        "fecha_fin": "2019-03-25 10:56:31.191413"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-17 17:03:23.427806",
+        "fecha_inicio": "2018-10-18 17:03:32.427806",
+        "fecha_fin": "2018-10-19 09:03:32.427806"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-06 10:45:16.947936",
+        "fecha_inicio": "2018-11-06 10:45:25.947936",
+        "fecha_fin": "2018-11-08 17:45:25.947936"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-14 11:36:45.874489",
+        "fecha_inicio": "2019-02-19 11:36:54.874489",
+        "fecha_fin": "2019-02-20 10:36:54.874489"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-25 12:11:04.199899",
+        "fecha_inicio": "2018-07-25 12:11:13.199899",
+        "fecha_fin": "2018-07-30 10:11:13.199899"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-07 12:29:02.535846",
+        "fecha_inicio": "2018-11-12 12:29:11.535846",
+        "fecha_fin": "2018-11-14 11:29:11.535846"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-07 17:22:18.285512",
+        "fecha_inicio": "2018-03-12 17:22:27.285512",
+        "fecha_fin": "2018-03-13 12:22:27.285512"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-16 11:05:11.679734",
+        "fecha_inicio": "2018-01-16 11:05:20.679734",
+        "fecha_fin": "2018-01-16 12:05:20.679734"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-06 17:01:13.295058",
+        "fecha_inicio": "2018-11-12 17:01:22.295058",
+        "fecha_fin": "2018-11-12 18:01:22.295058"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-09 13:52:08.336752",
+        "fecha_inicio": "2018-03-09 13:52:17.336752",
+        "fecha_fin": "2018-03-14 11:52:17.336752"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-07 16:08:49.883897",
+        "fecha_inicio": "2018-02-12 16:08:58.883897",
+        "fecha_fin": "2018-02-12 17:08:58.883897"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-19 14:07:50.727337",
+        "fecha_inicio": "2019-03-21 14:07:59.727337",
+        "fecha_fin": "2019-03-22 13:07:59.727337"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-13 11:01:19.614260",
+        "fecha_inicio": "2018-06-18 11:01:28.614260",
+        "fecha_fin": "2018-06-20 11:01:28.614260"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-04 14:43:45.711670",
+        "fecha_inicio": "2018-12-06 14:43:54.711670",
+        "fecha_fin": "2018-12-07 13:43:54.711670"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-30 13:24:14.034849",
+        "fecha_inicio": "2018-06-04 13:24:23.034849",
+        "fecha_fin": "2018-06-05 13:24:23.034849"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-04 12:58:27.774711",
+        "fecha_inicio": "2018-09-04 12:58:36.774711",
+        "fecha_fin": "2018-09-05 12:58:36.774711"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-16 16:08:34.244418",
+        "fecha_inicio": "2018-04-19 16:08:43.244418",
+        "fecha_fin": "2018-04-19 18:08:43.244418"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-29 11:03:48.054235",
+        "fecha_inicio": "2018-01-30 11:03:57.054235",
+        "fecha_fin": "2018-01-30 15:03:57.054235"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-24 17:31:39.656913",
+        "fecha_inicio": "2018-09-27 17:31:48.656913",
+        "fecha_fin": "2018-09-28 09:31:48.656913"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-13 11:16:45.559421",
+        "fecha_inicio": "2018-08-20 11:16:54.559421",
+        "fecha_fin": "2018-08-20 13:16:54.559421"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-25 15:33:43.908461",
+        "fecha_inicio": "2019-02-25 15:33:52.908461",
+        "fecha_fin": "2019-02-28 13:33:52.908461"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-28 11:22:26.107490",
+        "fecha_inicio": "2019-01-28 11:22:35.107490",
+        "fecha_fin": "2019-01-28 12:22:35.107490"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-30 09:38:22.312578",
+        "fecha_inicio": "2019-01-30 09:38:31.312578",
+        "fecha_fin": "2019-01-30 11:38:31.312578"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-09 15:22:34.085618",
+        "fecha_inicio": "2019-01-09 15:22:43.085618",
+        "fecha_fin": "2019-01-14 13:22:43.085618"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-14 16:15:51.386623",
+        "fecha_inicio": "2018-05-17 16:16:00.386623",
+        "fecha_fin": "2018-05-21 15:16:00.386623"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-26 18:40:58.175226",
+        "fecha_inicio": "2018-01-29 18:41:07.175226",
+        "fecha_fin": "2018-01-30 10:41:07.175226"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-24 11:04:40.793372",
+        "fecha_inicio": "2019-04-29 11:04:49.793372",
+        "fecha_fin": "2019-04-29 13:04:49.793372"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-08 18:02:54.265204",
+        "fecha_inicio": "2018-05-08 18:03:03.265204",
+        "fecha_fin": "2018-05-10 17:03:03.265204"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-27 12:33:15.274297",
+        "fecha_inicio": "2018-06-27 12:33:24.274297",
+        "fecha_fin": "2018-07-02 10:33:24.274297"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-06 10:00:10.325715",
+        "fecha_inicio": "2018-06-08 10:00:19.325715",
+        "fecha_fin": "2018-06-08 18:00:19.325715"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-23 18:28:05.810717",
+        "fecha_inicio": "2018-07-26 18:28:14.810717",
+        "fecha_fin": "2018-07-30 17:28:14.810717"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-11 12:42:38.232260",
+        "fecha_inicio": "2018-05-14 12:42:47.232260",
+        "fecha_fin": "2018-05-16 11:42:47.232260"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-31 12:22:16.910951",
+        "fecha_inicio": "2018-11-02 12:22:25.910951",
+        "fecha_fin": "2018-11-05 11:22:25.910951"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-12 17:32:04.829828",
+        "fecha_inicio": "2018-10-16 17:32:13.829828",
+        "fecha_fin": "2018-10-18 16:32:13.829828"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-20 12:31:11.447960",
+        "fecha_inicio": "2018-04-23 12:31:20.447960",
+        "fecha_fin": "2018-04-24 11:31:20.447960"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-01-16 10:01:09.598409",
+        "fecha_inicio": "2018-01-16 10:01:18.598409",
+        "fecha_fin": "2018-01-18 17:01:18.598409"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-01 10:07:39.421318",
+        "fecha_inicio": "2018-08-06 10:07:48.421318",
+        "fecha_fin": "2018-08-06 18:07:48.421318"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-20 18:52:18.404619",
+        "fecha_inicio": "2018-02-22 18:52:27.404619",
+        "fecha_fin": "2018-02-26 17:52:27.404619"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-31 10:45:54.699010",
+        "fecha_inicio": "2018-11-05 10:46:03.699010",
+        "fecha_fin": "2018-11-07 17:46:03.699010"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-25 12:48:33.983108",
+        "fecha_inicio": "2018-05-25 12:48:42.983108",
+        "fecha_fin": "2018-05-28 11:48:42.983108"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-02 18:08:43.285394",
+        "fecha_inicio": "2018-10-08 18:08:52.285394",
+        "fecha_fin": "2018-10-09 18:08:52.285394"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-29 18:57:45.090387",
+        "fecha_inicio": "2018-11-02 18:57:54.090387",
+        "fecha_fin": "2018-11-06 17:57:54.090387"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-23 09:29:51.987329",
+        "fecha_inicio": "2018-04-23 09:30:00.987329",
+        "fecha_fin": "2018-04-23 17:30:00.987329"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-17 10:18:04.688174",
+        "fecha_inicio": "2018-07-17 10:18:13.688174",
+        "fecha_fin": "2018-07-19 17:18:13.688174"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-05 16:32:57.646405",
+        "fecha_inicio": "2019-02-05 16:33:06.646405",
+        "fecha_fin": "2019-02-06 11:33:06.646405"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-18 15:08:26.223988",
+        "fecha_inicio": "2019-01-21 15:08:35.223988",
+        "fecha_fin": "2019-01-24 13:08:35.223988"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-30 09:17:40.633394",
+        "fecha_inicio": "2018-05-04 09:17:49.633394",
+        "fecha_fin": "2018-05-04 17:17:49.633394"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-16 12:47:34.191780",
+        "fecha_inicio": "2018-05-16 12:47:43.191780",
+        "fecha_fin": "2018-05-21 10:47:43.191780"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-16 14:53:59.979701",
+        "fecha_inicio": "2018-03-16 14:54:08.979701",
+        "fecha_fin": "2018-03-19 13:54:08.979701"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-25 15:46:47.063372",
+        "fecha_inicio": "2018-07-02 15:46:56.063372",
+        "fecha_fin": "2018-07-03 10:46:56.063372"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-12 17:09:36.782786",
+        "fecha_inicio": "2018-11-19 17:09:45.782786",
+        "fecha_fin": "2018-11-21 16:09:45.782786"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-15 11:13:43.988851",
+        "fecha_inicio": "2018-08-15 11:13:52.988851",
+        "fecha_fin": "2018-08-17 18:13:52.988851"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-09 14:48:55.851512",
+        "fecha_inicio": "2018-07-13 14:49:04.851512",
+        "fecha_fin": "2018-07-16 13:49:04.851512"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-01-30 18:14:45.377298",
+        "fecha_inicio": "2018-02-01 18:14:54.377298",
+        "fecha_fin": "2018-02-02 13:14:54.377298"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-08 13:29:05.719209",
+        "fecha_inicio": "2019-04-08 13:29:14.719209",
+        "fecha_fin": "2019-04-09 12:29:14.719209"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-04-11 14:41:15.470433",
+        "fecha_inicio": "2018-04-12 14:41:24.470433",
+        "fecha_fin": "2018-04-16 12:41:24.470433"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-28 12:51:20.843535",
+        "fecha_inicio": "2019-03-04 12:51:29.843535",
+        "fecha_fin": "2019-03-06 11:51:29.843535"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-04 10:58:51.568743",
+        "fecha_inicio": "2019-01-09 10:59:00.568743",
+        "fecha_fin": "2019-01-11 17:59:00.568743"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-18 12:03:18.419082",
+        "fecha_inicio": "2018-10-18 12:03:27.419082",
+        "fecha_fin": "2018-10-19 11:03:27.419082"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-27 13:15:22.915094",
+        "fecha_inicio": "2019-03-04 13:15:31.915094",
+        "fecha_fin": "2019-03-05 12:15:31.915094"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-10 10:15:29.554686",
+        "fecha_inicio": "2019-04-15 10:15:38.554686",
+        "fecha_fin": "2019-04-15 18:15:38.554686"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-06 12:55:55.218471",
+        "fecha_inicio": "2018-12-07 12:56:04.218471",
+        "fecha_fin": "2018-12-10 11:56:04.218471"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-17 17:01:39.462675",
+        "fecha_inicio": "2018-04-23 17:01:48.462675",
+        "fecha_fin": "2018-04-24 10:01:48.462675"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-01 11:50:20.828278",
+        "fecha_inicio": "2019-04-08 11:50:29.828278",
+        "fecha_fin": "2019-04-09 10:50:29.828278"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-10 18:26:48.781306",
+        "fecha_inicio": "2018-07-11 18:26:57.781306",
+        "fecha_fin": "2018-07-12 13:26:57.781306"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-23 18:14:24.633519",
+        "fecha_inicio": "2018-07-23 18:14:33.633519",
+        "fecha_fin": "2018-07-25 17:14:33.633519"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-07 12:03:29.645415",
+        "fecha_inicio": "2018-03-12 12:03:38.645415",
+        "fecha_fin": "2018-03-13 11:03:38.645415"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-28 09:30:04.097478",
+        "fecha_inicio": "2018-03-28 09:30:13.097478",
+        "fecha_fin": "2018-03-28 17:30:13.097478"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-04 16:32:03.637955",
+        "fecha_inicio": "2018-06-05 16:32:12.637955",
+        "fecha_fin": "2018-06-06 11:32:12.637955"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-26 14:07:27.047553",
+        "fecha_inicio": "2019-03-26 14:07:36.047553",
+        "fecha_fin": "2019-03-26 18:07:36.047553"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-27 10:18:17.834431",
+        "fecha_inicio": "2018-03-29 10:18:26.834431",
+        "fecha_fin": "2018-04-02 17:18:26.834431"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-29 14:43:59.403512",
+        "fecha_inicio": "2018-01-29 14:44:08.403512",
+        "fecha_fin": "2018-01-30 13:44:08.403512"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-10 11:16:47.550241",
+        "fecha_inicio": "2018-05-10 11:16:56.550241",
+        "fecha_fin": "2018-05-11 10:16:56.550241"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-19 11:31:04.975112",
+        "fecha_inicio": "2018-12-19 11:31:13.975112",
+        "fecha_fin": "2018-12-20 11:31:13.975112"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-08 14:02:25.906194",
+        "fecha_inicio": "2019-02-13 14:02:34.906194",
+        "fecha_fin": "2019-02-15 13:02:34.906194"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-18 11:18:07.663628",
+        "fecha_inicio": "2019-02-25 11:18:16.663628",
+        "fecha_fin": "2019-02-27 10:18:16.663628"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-23 14:52:41.434150",
+        "fecha_inicio": "2019-01-25 14:52:50.434150",
+        "fecha_fin": "2019-01-28 13:52:50.434150"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-14 10:46:04.266275",
+        "fecha_inicio": "2018-08-17 10:46:13.266275",
+        "fecha_fin": "2018-08-17 18:46:13.266275"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-22 18:33:07.716259",
+        "fecha_inicio": "2018-05-22 18:33:16.716259",
+        "fecha_fin": "2018-05-23 13:33:16.716259"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-16 16:04:24.183196",
+        "fecha_inicio": "2018-08-16 16:04:33.183196",
+        "fecha_fin": "2018-08-20 14:04:33.183196"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-04-05 12:01:57.110550",
+        "fecha_inicio": "2018-04-09 12:02:06.110550",
+        "fecha_fin": "2018-04-09 14:02:06.110550"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-19 14:54:58.379891",
+        "fecha_inicio": "2018-01-24 14:55:07.379891",
+        "fecha_fin": "2018-01-25 13:55:07.379891"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-21 14:35:24.917720",
+        "fecha_inicio": "2019-02-25 14:35:33.917720",
+        "fecha_fin": "2019-02-28 12:35:33.917720"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-10 16:03:07.465002",
+        "fecha_inicio": "2018-05-14 16:03:16.465002",
+        "fecha_fin": "2018-05-17 14:03:16.465002"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-25 09:55:46.442068",
+        "fecha_inicio": "2019-01-28 09:55:55.442068",
+        "fecha_fin": "2019-01-28 17:55:55.442068"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-03 11:33:46.391590",
+        "fecha_inicio": "2018-10-04 11:33:55.391590",
+        "fecha_fin": "2018-10-04 15:33:55.391590"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-05 13:06:26.205212",
+        "fecha_inicio": "2019-02-05 13:06:35.205212",
+        "fecha_fin": "2019-02-06 12:06:35.205212"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-31 10:03:10.814876",
+        "fecha_inicio": "2018-05-31 10:03:19.814876",
+        "fecha_fin": "2018-06-01 10:03:19.814876"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-04 10:04:49.885953",
+        "fecha_inicio": "2018-07-06 10:04:58.885953",
+        "fecha_fin": "2018-07-10 17:04:58.885953"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-25 09:59:01.108946",
+        "fecha_inicio": "2019-01-28 09:59:10.108946",
+        "fecha_fin": "2019-01-29 09:59:10.108946"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-15 13:43:18.066098",
+        "fecha_inicio": "2018-08-15 13:43:27.066098",
+        "fecha_fin": "2018-08-15 17:43:27.066098"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-14 12:17:34.842626",
+        "fecha_inicio": "2018-02-16 12:17:43.842626",
+        "fecha_fin": "2018-02-16 16:17:43.842626"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-19 11:30:48.045053",
+        "fecha_inicio": "2018-11-19 11:30:57.045053",
+        "fecha_fin": "2018-11-21 18:30:57.045053"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-03-07 11:22:29.260810",
+        "fecha_inicio": "2019-03-08 11:22:38.260810",
+        "fecha_fin": "2019-03-11 11:22:38.260810"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-23 17:31:11.893764",
+        "fecha_inicio": "2018-07-23 17:31:20.893764",
+        "fecha_fin": "2018-07-25 16:31:20.893764"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-12 11:16:46.049220",
+        "fecha_inicio": "2018-12-12 11:16:55.049220",
+        "fecha_fin": "2018-12-14 18:16:55.049220"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-27 15:39:08.579326",
+        "fecha_inicio": "2018-02-27 15:39:17.579326",
+        "fecha_fin": "2018-02-28 10:39:17.579326"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-23 14:47:26.682971",
+        "fecha_inicio": "2018-01-29 14:47:35.682971",
+        "fecha_fin": "2018-02-01 12:47:35.682971"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-02 16:20:01.360057",
+        "fecha_inicio": "2018-10-04 16:20:10.360057",
+        "fecha_fin": "2018-10-08 15:20:10.360057"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-04 12:43:41.618396",
+        "fecha_inicio": "2018-07-09 12:43:50.618396",
+        "fecha_fin": "2018-07-10 11:43:50.618396"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-30 12:43:31.711530",
+        "fecha_inicio": "2018-02-05 12:43:40.711530",
+        "fecha_fin": "2018-02-06 11:43:40.711530"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-30 18:19:05.633509",
+        "fecha_inicio": "2018-08-06 18:19:14.633509",
+        "fecha_fin": "2018-08-07 10:19:14.633509"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-22 15:29:03.229435",
+        "fecha_inicio": "2018-06-27 15:29:12.229435",
+        "fecha_fin": "2018-06-28 10:29:12.229435"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-04 10:54:38.492503",
+        "fecha_inicio": "2018-01-04 10:54:47.492503",
+        "fecha_fin": "2018-01-04 18:54:47.492503"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-07 17:25:38.405272",
+        "fecha_inicio": "2018-05-08 17:25:47.405272",
+        "fecha_fin": "2018-05-09 12:25:47.405272"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-08 15:48:21.631087",
+        "fecha_inicio": "2018-06-08 15:48:30.631087",
+        "fecha_fin": "2018-06-08 17:48:30.631087"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-02 11:01:21.933711",
+        "fecha_inicio": "2018-07-09 11:01:30.933711",
+        "fecha_fin": "2018-07-10 10:01:30.933711"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-28 18:18:00.103093",
+        "fecha_inicio": "2018-12-31 18:18:09.103093",
+        "fecha_fin": "2019-01-02 17:18:09.103093"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-16 10:09:51.314472",
+        "fecha_inicio": "2018-05-16 10:10:00.314472",
+        "fecha_fin": "2018-05-16 18:10:00.314472"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-29 09:53:29.236718",
+        "fecha_inicio": "2019-01-29 09:53:38.236718",
+        "fecha_fin": "2019-01-29 17:53:38.236718"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-03 12:04:05.016136",
+        "fecha_inicio": "2018-07-09 12:04:14.016136",
+        "fecha_fin": "2018-07-10 11:04:14.016136"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-04 10:21:43.151157",
+        "fecha_inicio": "2018-07-09 10:21:52.151157",
+        "fecha_fin": "2018-07-09 11:21:52.151157"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-21 17:52:43.173770",
+        "fecha_inicio": "2018-09-21 17:52:52.173770",
+        "fecha_fin": "2018-09-25 16:52:52.173770"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-15 17:22:03.570388",
+        "fecha_inicio": "2018-11-15 17:22:12.570388",
+        "fecha_fin": "2018-11-16 09:22:12.570388"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-19 16:32:18.572422",
+        "fecha_inicio": "2018-03-20 16:32:27.572422",
+        "fecha_fin": "2018-03-23 14:32:27.572422"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-01 13:35:42.275852",
+        "fecha_inicio": "2019-04-05 13:35:51.275852",
+        "fecha_fin": "2019-04-10 11:35:51.275852"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-02-28 17:41:59.185498",
+        "fecha_inicio": "2018-03-05 17:42:08.185498",
+        "fecha_fin": "2018-03-07 16:42:08.185498"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-02 18:14:54.913719",
+        "fecha_inicio": "2018-11-05 18:15:03.913719",
+        "fecha_fin": "2018-11-07 17:15:03.913719"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-05 15:50:42.693129",
+        "fecha_inicio": "2019-03-05 15:50:51.693129",
+        "fecha_fin": "2019-03-08 13:50:51.693129"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-05 12:16:49.948505",
+        "fecha_inicio": "2019-04-05 12:16:58.948505",
+        "fecha_fin": "2019-04-08 11:16:58.948505"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-13 14:39:19.825025",
+        "fecha_inicio": "2019-03-13 14:39:28.825025",
+        "fecha_fin": "2019-03-14 13:39:28.825025"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-26 14:01:20.357029",
+        "fecha_inicio": "2018-11-26 14:01:29.357029",
+        "fecha_fin": "2018-11-27 13:01:29.357029"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-05 15:24:57.210824",
+        "fecha_inicio": "2018-11-12 15:25:06.210824",
+        "fecha_fin": "2018-11-13 14:25:06.210824"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-03 12:37:01.420076",
+        "fecha_inicio": "2018-09-06 12:37:10.420076",
+        "fecha_fin": "2018-09-06 13:37:10.420076"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-22 18:24:41.563255",
+        "fecha_inicio": "2018-05-22 18:24:50.563255",
+        "fecha_fin": "2018-05-23 10:24:50.563255"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-15 10:52:51.295748",
+        "fecha_inicio": "2018-10-22 10:53:00.295748",
+        "fecha_fin": "2018-10-22 18:53:00.295748"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-03 14:28:32.180024",
+        "fecha_inicio": "2018-05-07 14:28:41.180024",
+        "fecha_fin": "2018-05-08 13:28:41.180024"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-08-27 17:08:47.727099",
+        "fecha_inicio": "2018-08-27 17:08:56.727099",
+        "fecha_fin": "2018-08-28 12:08:56.727099"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-19 15:25:13.017462",
+        "fecha_inicio": "2019-03-22 15:25:22.017462",
+        "fecha_fin": "2019-03-22 17:25:22.017462"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-26 11:19:12.226371",
+        "fecha_inicio": "2018-06-26 11:19:21.226371",
+        "fecha_fin": "2018-06-26 15:19:21.226371"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-13 14:16:26.905270",
+        "fecha_inicio": "2019-03-18 14:16:35.905270",
+        "fecha_fin": "2019-03-21 12:16:35.905270"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-10 17:04:30.713531",
+        "fecha_inicio": "2018-05-10 17:04:39.713531",
+        "fecha_fin": "2018-05-10 18:04:39.713531"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-24 12:06:49.274491",
+        "fecha_inicio": "2019-04-24 12:06:58.274491",
+        "fecha_fin": "2019-04-24 13:06:58.274491"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-29 13:47:28.142036",
+        "fecha_inicio": "2019-04-29 13:47:37.142036",
+        "fecha_fin": "2019-04-29 17:47:37.142036"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-12 13:52:16.338523",
+        "fecha_inicio": "2018-09-17 13:52:25.338523",
+        "fecha_fin": "2018-09-17 17:52:25.338523"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-25 14:17:51.364812",
+        "fecha_inicio": "2019-03-28 14:18:00.364812",
+        "fecha_fin": "2019-03-29 13:18:00.364812"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-25 13:48:27.741786",
+        "fecha_inicio": "2018-05-25 13:48:36.741786",
+        "fecha_fin": "2018-05-28 13:48:36.741786"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-27 11:08:57.620494",
+        "fecha_inicio": "2018-04-27 11:09:06.620494",
+        "fecha_fin": "2018-04-27 15:09:06.620494"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-20 13:45:27.151335",
+        "fecha_inicio": "2018-08-27 13:45:36.151335",
+        "fecha_fin": "2018-08-28 12:45:36.151335"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-07 11:03:32.295224",
+        "fecha_inicio": "2019-03-11 11:03:41.295224",
+        "fecha_fin": "2019-03-13 18:03:41.295224"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-21 12:07:55.664652",
+        "fecha_inicio": "2018-11-21 12:08:04.664652",
+        "fecha_fin": "2018-11-22 11:08:04.664652"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-24 10:28:13.174339",
+        "fecha_inicio": "2018-07-30 10:28:22.174339",
+        "fecha_fin": "2018-07-30 14:28:22.174339"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-22 10:31:43.378971",
+        "fecha_inicio": "2018-10-22 10:31:52.378971",
+        "fecha_fin": "2018-10-24 17:31:52.378971"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-27 14:24:02.249215",
+        "fecha_inicio": "2018-07-30 14:24:11.249215",
+        "fecha_fin": "2018-07-30 18:24:11.249215"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-24 10:11:40.075693",
+        "fecha_inicio": "2018-10-29 10:11:49.075693",
+        "fecha_fin": "2018-10-29 18:11:49.075693"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-09 18:10:20.656866",
+        "fecha_inicio": "2018-01-15 18:10:29.656866",
+        "fecha_fin": "2018-01-17 17:10:29.656866"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-02 12:18:40.544627",
+        "fecha_inicio": "2019-04-08 12:18:49.544627",
+        "fecha_fin": "2019-04-09 12:18:49.544627"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-04 13:19:16.838616",
+        "fecha_inicio": "2018-05-04 13:19:25.838616",
+        "fecha_fin": "2018-05-04 15:19:25.838616"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-03 12:48:35.348139",
+        "fecha_inicio": "2018-05-07 12:48:44.348139",
+        "fecha_fin": "2018-05-08 12:48:44.348139"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-06 14:55:31.661321",
+        "fecha_inicio": "2018-03-12 14:55:40.661321",
+        "fecha_fin": "2018-03-13 13:55:40.661321"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-28 14:21:27.102829",
+        "fecha_inicio": "2019-01-28 14:21:36.102829",
+        "fecha_fin": "2019-01-29 13:21:36.102829"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-20 11:06:14.217717",
+        "fecha_inicio": "2019-03-20 11:06:23.217717",
+        "fecha_fin": "2019-03-22 10:06:23.217717"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-03 14:05:03.094385",
+        "fecha_inicio": "2019-01-03 14:05:12.094385",
+        "fecha_fin": "2019-01-07 12:05:12.094385"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-07 14:52:26.285164",
+        "fecha_inicio": "2018-03-07 14:52:35.285164",
+        "fecha_fin": "2018-03-12 12:52:35.285164"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-05 18:34:31.378775",
+        "fecha_inicio": "2018-06-05 18:34:40.378775",
+        "fecha_fin": "2018-06-06 18:34:40.378775"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-26 11:27:32.299524",
+        "fecha_inicio": "2018-09-26 11:27:41.299524",
+        "fecha_fin": "2018-09-27 11:27:41.299524"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-12 16:23:25.988821",
+        "fecha_inicio": "2019-02-12 16:23:34.988821",
+        "fecha_fin": "2019-02-14 15:23:34.988821"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-07 15:55:06.550350",
+        "fecha_inicio": "2018-03-08 15:55:15.550350",
+        "fecha_fin": "2018-03-09 14:55:15.550350"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-27 16:32:51.832680",
+        "fecha_inicio": "2018-09-03 16:33:00.832680",
+        "fecha_fin": "2018-09-03 17:33:00.832680"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-09 15:17:06.161582",
+        "fecha_inicio": "2018-11-13 15:17:15.161582",
+        "fecha_fin": "2018-11-14 10:17:15.161582"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-26 12:54:54.748353",
+        "fecha_inicio": "2018-10-01 12:55:03.748353",
+        "fecha_fin": "2018-10-03 12:55:03.748353"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-18 14:07:29.227392",
+        "fecha_inicio": "2018-07-23 14:07:38.227392",
+        "fecha_fin": "2018-07-26 12:07:38.227392"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-03 16:43:12.152672",
+        "fecha_inicio": "2018-12-04 16:43:21.152672",
+        "fecha_fin": "2018-12-07 14:43:21.152672"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-22 13:21:49.825356",
+        "fecha_inicio": "2018-02-23 13:21:58.825356",
+        "fecha_fin": "2018-02-28 11:21:58.825356"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-29 16:37:57.589561",
+        "fecha_inicio": "2019-05-02 16:38:06.589561",
+        "fecha_fin": "2019-05-06 15:38:06.589561"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-27 14:32:41.762465",
+        "fecha_inicio": "2018-05-01 14:32:50.762465",
+        "fecha_fin": "2018-05-01 16:32:50.762465"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-01 11:46:42.043639",
+        "fecha_inicio": "2019-04-03 11:46:51.043639",
+        "fecha_fin": "2019-04-04 11:46:51.043639"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-26 14:52:26.285705",
+        "fecha_inicio": "2018-10-01 14:52:35.285705",
+        "fecha_fin": "2018-10-02 13:52:35.285705"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-09 16:52:38.833472",
+        "fecha_inicio": "2019-04-15 16:52:47.833472",
+        "fecha_fin": "2019-04-15 17:52:47.833472"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-05 10:26:00.651431",
+        "fecha_inicio": "2018-07-09 10:26:09.651431",
+        "fecha_fin": "2018-07-10 18:26:09.651431"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-29 14:04:05.072077",
+        "fecha_inicio": "2018-06-01 14:04:14.072077",
+        "fecha_fin": "2018-06-04 14:04:14.072077"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-07 13:54:17.510983",
+        "fecha_inicio": "2018-11-12 13:54:26.510983",
+        "fecha_fin": "2018-11-13 12:54:26.510983"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-08 12:11:04.048878",
+        "fecha_inicio": "2018-08-08 12:11:13.048878",
+        "fecha_fin": "2018-08-09 11:11:13.048878"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-22 16:02:57.812207",
+        "fecha_inicio": "2018-01-25 16:03:06.812207",
+        "fecha_fin": "2018-01-29 15:03:06.812207"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-02 17:02:59.123258",
+        "fecha_inicio": "2018-10-03 17:03:08.123258",
+        "fecha_fin": "2018-10-04 09:03:08.123258"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-17 17:00:36.066349",
+        "fecha_inicio": "2019-01-21 17:00:45.066349",
+        "fecha_fin": "2019-01-23 16:00:45.066349"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-05 11:49:37.956208",
+        "fecha_inicio": "2018-11-05 11:49:46.956208",
+        "fecha_fin": "2018-11-07 18:49:46.956208"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-19 12:38:17.679932",
+        "fecha_inicio": "2018-06-22 12:38:26.679932",
+        "fecha_fin": "2018-06-22 16:38:26.679932"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-23 12:15:54.483455",
+        "fecha_inicio": "2018-03-26 12:16:03.483455",
+        "fecha_fin": "2018-03-26 14:16:03.483455"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-04 15:08:57.510508",
+        "fecha_inicio": "2018-09-07 15:09:06.510508",
+        "fecha_fin": "2018-09-10 14:09:06.510508"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-20 16:24:26.293027",
+        "fecha_inicio": "2018-11-20 16:24:35.293027",
+        "fecha_fin": "2018-11-23 14:24:35.293027"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-27 15:55:55.773354",
+        "fecha_inicio": "2018-11-27 15:56:04.773354",
+        "fecha_fin": "2018-11-28 10:56:04.773354"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-03 18:14:07.073752",
+        "fecha_inicio": "2018-09-06 18:14:16.073752",
+        "fecha_fin": "2018-09-11 17:14:16.073752"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-15 16:22:18.775031",
+        "fecha_inicio": "2018-08-15 16:22:27.775031",
+        "fecha_fin": "2018-08-20 14:22:27.775031"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-04-19 12:02:33.351514",
+        "fecha_inicio": "2018-04-23 12:02:42.351514",
+        "fecha_fin": "2018-04-23 16:02:42.351514"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-16 14:03:56.566727",
+        "fecha_inicio": "2019-01-21 14:04:05.566727",
+        "fecha_fin": "2019-01-24 12:04:05.566727"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-13 10:03:27.472907",
+        "fecha_inicio": "2018-11-13 10:03:36.472907",
+        "fecha_fin": "2018-11-15 17:03:36.472907"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-07 15:40:38.973243",
+        "fecha_inicio": "2018-05-07 15:40:47.973243",
+        "fecha_fin": "2018-05-10 13:40:47.973243"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-23 11:53:33.600671",
+        "fecha_inicio": "2018-07-23 11:53:42.600671",
+        "fecha_fin": "2018-07-23 12:53:42.600671"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-27 10:06:39.764908",
+        "fecha_inicio": "2018-07-02 10:06:48.764908",
+        "fecha_fin": "2018-07-04 17:06:48.764908"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-08-20 13:53:36.460829",
+        "fecha_inicio": "2018-08-20 13:53:45.460829",
+        "fecha_fin": "2018-08-23 11:53:45.460829"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-05 18:49:27.604747",
+        "fecha_inicio": "2018-12-10 18:49:36.604747",
+        "fecha_fin": "2018-12-12 17:49:36.604747"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-01 15:14:49.816810",
+        "fecha_inicio": "2018-06-01 15:14:58.816810",
+        "fecha_fin": "2018-06-06 13:14:58.816810"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-01 18:20:47.069883",
+        "fecha_inicio": "2018-05-04 18:20:56.069883",
+        "fecha_fin": "2018-05-07 11:20:56.069883"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-22 15:52:09.275979",
+        "fecha_inicio": "2018-02-26 15:52:18.275979",
+        "fecha_fin": "2018-03-01 13:52:18.275979"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-24 13:16:21.915680",
+        "fecha_inicio": "2018-07-27 13:16:30.915680",
+        "fecha_fin": "2018-08-01 11:16:30.915680"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-09 10:23:17.910318",
+        "fecha_inicio": "2018-10-09 10:23:26.910318",
+        "fecha_fin": "2018-10-09 11:23:26.910318"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-03 09:18:20.440742",
+        "fecha_inicio": "2019-01-04 09:18:29.440742",
+        "fecha_fin": "2019-01-04 13:18:29.440742"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-22 13:50:37.137141",
+        "fecha_inicio": "2018-10-22 13:50:46.137141",
+        "fecha_fin": "2018-10-23 12:50:46.137141"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-20 12:15:10.432046",
+        "fecha_inicio": "2019-03-21 12:15:19.432046",
+        "fecha_fin": "2019-03-22 11:15:19.432046"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-10 15:02:27.621558",
+        "fecha_inicio": "2018-09-10 15:02:36.621558",
+        "fecha_fin": "2018-09-11 10:02:36.621558"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-21 14:58:09.877175",
+        "fecha_inicio": "2018-06-21 14:58:18.877175",
+        "fecha_fin": "2018-06-22 13:58:18.877175"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-27 09:50:49.102288",
+        "fecha_inicio": "2019-03-28 09:50:58.102288",
+        "fecha_fin": "2019-03-29 17:50:58.102288"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-02-09 14:33:23.802190",
+        "fecha_inicio": "2018-02-09 14:33:32.802190",
+        "fecha_fin": "2018-02-12 13:33:32.802190"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-12 13:26:42.874225",
+        "fecha_inicio": "2018-12-17 13:26:51.874225",
+        "fecha_fin": "2018-12-18 12:26:51.874225"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-25 14:59:44.671235",
+        "fecha_inicio": "2019-02-26 14:59:53.671235",
+        "fecha_fin": "2019-02-27 14:59:53.671235"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-21 14:27:13.087839",
+        "fecha_inicio": "2018-08-27 14:27:22.087839",
+        "fecha_fin": "2018-08-28 14:27:22.087839"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-08 17:51:01.844266",
+        "fecha_inicio": "2019-04-11 17:51:10.844266",
+        "fecha_fin": "2019-04-15 16:51:10.844266"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-08-10 15:42:48.625994",
+        "fecha_inicio": "2018-08-15 15:42:57.625994",
+        "fecha_fin": "2018-08-15 17:42:57.625994"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-13 16:53:12.673834",
+        "fecha_inicio": "2019-03-18 16:53:21.673834",
+        "fecha_fin": "2019-03-20 15:53:21.673834"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-27 14:57:36.009729",
+        "fecha_inicio": "2018-11-30 14:57:45.009729",
+        "fecha_fin": "2018-12-05 12:57:45.009729"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-25 18:33:44.294787",
+        "fecha_inicio": "2019-03-29 18:33:53.294787",
+        "fecha_fin": "2019-04-02 17:33:53.294787"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-07 13:27:53.040477",
+        "fecha_inicio": "2019-03-07 13:28:02.040477",
+        "fecha_fin": "2019-03-08 12:28:02.040477"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-09 14:19:20.223376",
+        "fecha_inicio": "2018-10-09 14:19:29.223376",
+        "fecha_fin": "2018-10-10 13:19:29.223376"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-03 12:09:49.200252",
+        "fecha_inicio": "2018-09-04 12:09:58.200252",
+        "fecha_fin": "2018-09-07 10:09:58.200252"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-12-17 12:21:38.100980",
+        "fecha_inicio": "2018-12-17 12:21:47.100980",
+        "fecha_fin": "2018-12-17 14:21:47.100980"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-10 18:26:13.360524",
+        "fecha_inicio": "2019-01-10 18:26:22.360524",
+        "fecha_fin": "2019-01-11 10:26:22.360524"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-04 16:59:10.852996",
+        "fecha_inicio": "2019-02-07 16:59:19.852996",
+        "fecha_fin": "2019-02-11 15:59:19.852996"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-11 14:56:37.303344",
+        "fecha_inicio": "2019-02-13 14:56:46.303344",
+        "fecha_fin": "2019-02-14 13:56:46.303344"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-05 18:51:38.071752",
+        "fecha_inicio": "2018-03-05 18:51:47.071752",
+        "fecha_fin": "2018-03-07 17:51:47.071752"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-25 10:19:12.161419",
+        "fecha_inicio": "2018-07-27 10:19:21.161419",
+        "fecha_fin": "2018-07-27 18:19:21.161419"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-20 10:44:33.630478",
+        "fecha_inicio": "2019-03-20 10:44:42.630478",
+        "fecha_fin": "2019-03-20 18:44:42.630478"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-18 18:19:11.919889",
+        "fecha_inicio": "2018-09-18 18:19:20.919889",
+        "fecha_fin": "2018-09-19 13:19:20.919889"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-05 14:22:02.118137",
+        "fecha_inicio": "2018-04-09 14:22:11.118137",
+        "fecha_fin": "2018-04-09 18:22:11.118137"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-22 10:10:43.871072",
+        "fecha_inicio": "2018-03-26 10:10:52.871072",
+        "fecha_fin": "2018-03-26 14:10:52.871072"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-04 11:40:00.474861",
+        "fecha_inicio": "2018-04-04 11:40:09.474861",
+        "fecha_fin": "2018-04-06 18:40:09.474861"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-09 13:53:45.574838",
+        "fecha_inicio": "2018-03-14 13:53:54.574838",
+        "fecha_fin": "2018-03-15 12:53:54.574838"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-13 12:45:17.378475",
+        "fecha_inicio": "2018-08-13 12:45:26.378475",
+        "fecha_fin": "2018-08-13 13:45:26.378475"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-05 16:38:31.012028",
+        "fecha_inicio": "2019-04-09 16:38:40.012028",
+        "fecha_fin": "2019-04-10 11:38:40.012028"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-19 16:22:35.020790",
+        "fecha_inicio": "2019-03-21 16:22:44.020790",
+        "fecha_fin": "2019-03-22 16:22:44.020790"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-23 13:10:47.337186",
+        "fecha_inicio": "2018-01-29 13:10:56.337186",
+        "fecha_fin": "2018-01-29 17:10:56.337186"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-08-20 12:58:58.758454",
+        "fecha_inicio": "2018-08-20 12:59:07.758454",
+        "fecha_fin": "2018-08-23 10:59:07.758454"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-17 11:34:57.555191",
+        "fecha_inicio": "2018-09-20 11:35:06.555191",
+        "fecha_fin": "2018-09-20 15:35:06.555191"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-14 16:25:09.497515",
+        "fecha_inicio": "2018-12-18 16:25:18.497515",
+        "fecha_fin": "2018-12-19 11:25:18.497515"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-26 15:04:42.815544",
+        "fecha_inicio": "2018-11-30 15:04:51.815544",
+        "fecha_fin": "2018-12-03 15:04:51.815544"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-07 13:20:01.022783",
+        "fecha_inicio": "2018-12-07 13:20:10.022783",
+        "fecha_fin": "2018-12-12 11:20:10.022783"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-31 11:44:24.491942",
+        "fecha_inicio": "2019-01-31 11:44:33.491942",
+        "fecha_fin": "2019-02-04 18:44:33.491942"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-01 15:27:45.080024",
+        "fecha_inicio": "2019-03-04 15:27:54.080024",
+        "fecha_fin": "2019-03-05 14:27:54.080024"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-03 11:39:33.141002",
+        "fecha_inicio": "2018-07-03 11:39:42.141002",
+        "fecha_fin": "2018-07-04 10:39:42.141002"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-18 17:33:25.201574",
+        "fecha_inicio": "2018-07-19 17:33:34.201574",
+        "fecha_fin": "2018-07-20 12:33:34.201574"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-23 10:59:13.370320",
+        "fecha_inicio": "2018-11-28 10:59:22.370320",
+        "fecha_fin": "2018-11-28 18:59:22.370320"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-06 12:20:21.454086",
+        "fecha_inicio": "2018-06-11 12:20:30.454086",
+        "fecha_fin": "2018-06-11 13:20:30.454086"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-12-10 12:37:36.246913",
+        "fecha_inicio": "2018-12-10 12:37:45.246913",
+        "fecha_fin": "2018-12-13 10:37:45.246913"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-13 10:39:36.996750",
+        "fecha_inicio": "2018-03-14 10:39:45.996750",
+        "fecha_fin": "2018-03-16 17:39:45.996750"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-22 16:11:09.247037",
+        "fecha_inicio": "2018-10-25 16:11:18.247037",
+        "fecha_fin": "2018-10-26 11:11:18.247037"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-15 14:10:17.257890",
+        "fecha_inicio": "2018-11-20 14:10:26.257890",
+        "fecha_fin": "2018-11-21 14:10:26.257890"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-04-27 16:26:34.841215",
+        "fecha_inicio": "2018-04-30 16:26:43.841215",
+        "fecha_fin": "2018-05-01 11:26:43.841215"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-28 10:19:47.513296",
+        "fecha_inicio": "2018-03-02 10:19:56.513296",
+        "fecha_fin": "2018-03-02 18:19:56.513296"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-29 17:53:26.237231",
+        "fecha_inicio": "2018-05-29 17:53:35.237231",
+        "fecha_fin": "2018-05-30 10:53:35.237231"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-06 13:36:35.801197",
+        "fecha_inicio": "2018-02-06 13:36:44.801197",
+        "fecha_fin": "2018-02-06 17:36:44.801197"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-07-11 11:16:59.424366",
+        "fecha_inicio": "2018-07-16 11:17:08.424366",
+        "fecha_fin": "2018-07-18 18:17:08.424366"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-16 11:28:29.711664",
+        "fecha_inicio": "2018-05-16 11:28:38.711664",
+        "fecha_fin": "2018-05-16 15:28:38.711664"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-13 11:40:54.645517",
+        "fecha_inicio": "2018-11-15 11:41:03.645517",
+        "fecha_fin": "2018-11-19 18:41:03.645517"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-25 17:20:44.180971",
+        "fecha_inicio": "2018-10-29 17:20:53.180971",
+        "fecha_fin": "2018-10-30 12:20:53.180971"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-24 12:20:55.560764",
+        "fecha_inicio": "2018-12-27 12:21:04.560764",
+        "fecha_fin": "2018-12-31 10:21:04.560764"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-26 17:33:56.443029",
+        "fecha_inicio": "2019-04-26 17:34:05.443029",
+        "fecha_fin": "2019-04-30 16:34:05.443029"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-02 16:51:39.800994",
+        "fecha_inicio": "2018-04-04 16:51:48.800994",
+        "fecha_fin": "2018-04-09 14:51:48.800994"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-04 18:07:13.517730",
+        "fecha_inicio": "2018-05-07 18:07:22.517730",
+        "fecha_fin": "2018-05-08 10:07:22.517730"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-15 12:52:16.294047",
+        "fecha_inicio": "2019-02-15 12:52:25.294047",
+        "fecha_fin": "2019-02-18 11:52:25.294047"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-24 13:40:48.917155",
+        "fecha_inicio": "2018-10-01 13:40:57.917155",
+        "fecha_fin": "2018-10-04 11:40:57.917155"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-05 11:34:36.472934",
+        "fecha_inicio": "2018-10-08 11:34:45.472934",
+        "fecha_fin": "2018-10-09 11:34:45.472934"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-17 17:28:24.441329",
+        "fecha_inicio": "2018-09-17 17:28:33.441329",
+        "fecha_fin": "2018-09-18 12:28:33.441329"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-03 16:20:51.309955",
+        "fecha_inicio": "2018-09-07 16:21:00.309955",
+        "fecha_fin": "2018-09-07 18:21:00.309955"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-14 12:47:40.023847",
+        "fecha_inicio": "2019-02-19 12:47:49.023847",
+        "fecha_fin": "2019-02-19 13:47:49.023847"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-20 10:11:15.312468",
+        "fecha_inicio": "2018-06-21 10:11:24.312468",
+        "fecha_fin": "2018-06-21 18:11:24.312468"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-01 14:07:21.678371",
+        "fecha_inicio": "2018-05-01 14:07:30.678371",
+        "fecha_fin": "2018-05-02 13:07:30.678371"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-02 11:38:18.614040",
+        "fecha_inicio": "2019-04-02 11:38:27.614040",
+        "fecha_fin": "2019-04-03 10:38:27.614040"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-31 09:40:09.784375",
+        "fecha_inicio": "2018-10-31 09:40:18.784375",
+        "fecha_fin": "2018-11-01 17:40:18.784375"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-01 13:50:41.778608",
+        "fecha_inicio": "2018-08-01 13:50:50.778608",
+        "fecha_fin": "2018-08-02 12:50:50.778608"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-10 11:20:52.432090",
+        "fecha_inicio": "2018-01-12 11:21:01.432090",
+        "fecha_fin": "2018-01-15 10:21:01.432090"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-27 10:41:44.587395",
+        "fecha_inicio": "2018-12-27 10:41:53.587395",
+        "fecha_fin": "2018-12-27 12:41:53.587395"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-17 17:57:51.151224",
+        "fecha_inicio": "2018-09-17 17:58:00.151224",
+        "fecha_fin": "2018-09-19 16:58:00.151224"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-18 11:19:34.846156",
+        "fecha_inicio": "2018-07-23 11:19:43.846156",
+        "fecha_fin": "2018-07-23 12:19:43.846156"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-30 10:49:00.434551",
+        "fecha_inicio": "2018-11-05 10:49:09.434551",
+        "fecha_fin": "2018-11-06 10:49:09.434551"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-21 17:30:21.020547",
+        "fecha_inicio": "2018-02-26 17:30:30.020547",
+        "fecha_fin": "2018-02-27 12:30:30.020547"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-15 16:31:46.058359",
+        "fecha_inicio": "2019-01-18 16:31:55.058359",
+        "fecha_fin": "2019-01-18 18:31:55.058359"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-06 16:21:09.412658",
+        "fecha_inicio": "2018-08-06 16:21:18.412658",
+        "fecha_fin": "2018-08-09 14:21:18.412658"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-22 11:45:00.615854",
+        "fecha_inicio": "2019-04-25 11:45:09.615854",
+        "fecha_fin": "2019-04-29 18:45:09.615854"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-20 13:30:39.972228",
+        "fecha_inicio": "2018-04-24 13:30:48.972228",
+        "fecha_fin": "2018-04-24 17:30:48.972228"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-28 09:58:04.911055",
+        "fecha_inicio": "2018-06-28 09:58:13.911055",
+        "fecha_fin": "2018-06-29 17:58:13.911055"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-22 16:23:54.809013",
+        "fecha_inicio": "2018-11-22 16:24:03.809013",
+        "fecha_fin": "2018-11-26 15:24:03.809013"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-11 10:59:04.807969",
+        "fecha_inicio": "2018-07-12 10:59:13.807969",
+        "fecha_fin": "2018-07-16 10:59:13.807969"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-13 10:53:49.089979",
+        "fecha_inicio": "2018-03-19 10:53:58.089979",
+        "fecha_fin": "2018-03-21 17:53:58.089979"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-28 18:41:53.948517",
+        "fecha_inicio": "2018-10-03 18:42:02.948517",
+        "fecha_fin": "2018-10-04 10:42:02.948517"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-05 10:31:48.146281",
+        "fecha_inicio": "2018-09-10 10:31:57.146281",
+        "fecha_fin": "2018-09-10 14:31:57.146281"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-25 14:46:44.776420",
+        "fecha_inicio": "2018-01-29 14:46:53.776420",
+        "fecha_fin": "2018-01-30 13:46:53.776420"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-02-15 12:31:35.699943",
+        "fecha_inicio": "2018-02-15 12:31:44.699943",
+        "fecha_fin": "2018-02-19 10:31:44.699943"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-08-17 12:04:54.063105",
+        "fecha_inicio": "2018-08-20 12:05:03.063105",
+        "fecha_fin": "2018-08-20 16:05:03.063105"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-03 18:02:05.610423",
+        "fecha_inicio": "2018-10-08 18:02:14.610423",
+        "fecha_fin": "2018-10-09 13:02:14.610423"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-20 17:27:09.861318",
+        "fecha_inicio": "2018-08-22 17:27:18.861318",
+        "fecha_fin": "2018-08-23 12:27:18.861318"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-30 17:29:47.851148",
+        "fecha_inicio": "2018-01-30 17:29:56.851148",
+        "fecha_fin": "2018-01-31 09:29:56.851148"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-05 14:00:35.639215",
+        "fecha_inicio": "2018-03-05 14:00:44.639215",
+        "fecha_fin": "2018-03-06 13:00:44.639215"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-05-01 13:20:58.674609",
+        "fecha_inicio": "2019-05-01 13:21:07.674609",
+        "fecha_fin": "2019-05-02 12:21:07.674609"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-16 13:58:22.497434",
+        "fecha_inicio": "2019-01-21 13:58:31.497434",
+        "fecha_fin": "2019-01-21 17:58:31.497434"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-08 10:52:15.165073",
+        "fecha_inicio": "2018-05-08 10:52:24.165073",
+        "fecha_fin": "2018-05-08 14:52:24.165073"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-18 09:04:19.446473",
+        "fecha_inicio": "2018-06-18 09:04:28.446473",
+        "fecha_fin": "2018-06-18 17:04:28.446473"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-02 14:42:29.773377",
+        "fecha_inicio": "2018-07-02 14:42:38.773377",
+        "fecha_fin": "2018-07-03 13:42:38.773377"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-25 13:05:14.611327",
+        "fecha_inicio": "2018-06-25 13:05:23.611327",
+        "fecha_fin": "2018-06-26 12:05:23.611327"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-23 11:31:33.666284",
+        "fecha_inicio": "2019-01-28 11:31:42.666284",
+        "fecha_fin": "2019-01-28 15:31:42.666284"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-15 11:15:47.304754",
+        "fecha_inicio": "2019-04-16 11:15:56.304754",
+        "fecha_fin": "2019-04-17 10:15:56.304754"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-23 11:37:40.845591",
+        "fecha_inicio": "2018-11-26 11:37:49.845591",
+        "fecha_fin": "2018-11-26 12:37:49.845591"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-06 09:34:31.317914",
+        "fecha_inicio": "2018-12-06 09:34:40.317914",
+        "fecha_fin": "2018-12-07 17:34:40.317914"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-17 13:53:50.953912",
+        "fecha_inicio": "2019-01-21 13:53:59.953912",
+        "fecha_fin": "2019-01-22 12:53:59.953912"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-02 14:51:56.355241",
+        "fecha_inicio": "2018-10-02 14:52:05.355241",
+        "fecha_fin": "2018-10-05 12:52:05.355241"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-30 12:39:33.268543",
+        "fecha_inicio": "2019-02-04 12:39:42.268543",
+        "fecha_fin": "2019-02-04 13:39:42.268543"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-04-03 10:58:21.683691",
+        "fecha_inicio": "2019-04-08 10:58:30.683691",
+        "fecha_fin": "2019-04-08 18:58:30.683691"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-08 14:36:02.532564",
+        "fecha_inicio": "2019-04-15 14:36:11.532564",
+        "fecha_fin": "2019-04-15 18:36:11.532564"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-20 10:14:01.869348",
+        "fecha_inicio": "2018-09-24 10:14:10.869348",
+        "fecha_fin": "2018-09-26 17:14:10.869348"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-04 11:10:19.028580",
+        "fecha_inicio": "2018-07-09 11:10:28.028580",
+        "fecha_fin": "2018-07-11 10:10:28.028580"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-06 10:27:20.640314",
+        "fecha_inicio": "2018-11-06 10:27:29.640314",
+        "fecha_fin": "2018-11-08 17:27:29.640314"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-25 15:09:36.925761",
+        "fecha_inicio": "2018-09-25 15:09:45.925761",
+        "fecha_fin": "2018-09-26 15:09:45.925761"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-02 11:46:42.180429",
+        "fecha_inicio": "2018-08-02 11:46:51.180429",
+        "fecha_fin": "2018-08-06 18:46:51.180429"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-21 11:32:10.279068",
+        "fecha_inicio": "2018-11-21 11:32:19.279068",
+        "fecha_fin": "2018-11-22 10:32:19.279068"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-17 13:22:16.587469",
+        "fecha_inicio": "2018-09-17 13:22:25.587469",
+        "fecha_fin": "2018-09-20 11:22:25.587469"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-03 14:03:03.487403",
+        "fecha_inicio": "2018-04-05 14:03:12.487403",
+        "fecha_fin": "2018-04-05 18:03:12.487403"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-04 10:28:33.893117",
+        "fecha_inicio": "2018-04-04 10:28:42.893117",
+        "fecha_fin": "2018-04-04 14:28:42.893117"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-01 10:39:28.261836",
+        "fecha_inicio": "2019-02-06 10:39:37.261836",
+        "fecha_fin": "2019-02-06 14:39:37.261836"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-11 14:30:37.416857",
+        "fecha_inicio": "2019-02-11 14:30:46.416857",
+        "fecha_fin": "2019-02-12 13:30:46.416857"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-21 13:12:16.133183",
+        "fecha_inicio": "2018-05-21 13:12:25.133183",
+        "fecha_fin": "2018-05-24 11:12:25.133183"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-08 13:13:02.557584",
+        "fecha_inicio": "2018-08-13 13:13:11.557584",
+        "fecha_fin": "2018-08-13 14:13:11.557584"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-11 14:55:04.845928",
+        "fecha_inicio": "2019-02-14 14:55:13.845928",
+        "fecha_fin": "2019-02-15 14:55:13.845928"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-17 15:33:07.687075",
+        "fecha_inicio": "2018-09-20 15:33:16.687075",
+        "fecha_fin": "2018-09-21 14:33:16.687075"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-04 15:53:22.441921",
+        "fecha_inicio": "2019-02-11 15:53:31.441921",
+        "fecha_fin": "2019-02-11 17:53:31.441921"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-07 18:21:29.072665",
+        "fecha_inicio": "2018-05-07 18:21:38.072665",
+        "fecha_fin": "2018-05-08 18:21:38.072665"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-10 13:39:29.862480",
+        "fecha_inicio": "2018-10-10 13:39:38.862480",
+        "fecha_fin": "2018-10-11 13:39:38.862480"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-20 11:33:31.673063",
+        "fecha_inicio": "2019-02-20 11:33:40.673063",
+        "fecha_fin": "2019-02-22 18:33:40.673063"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-02 13:17:07.564020",
+        "fecha_inicio": "2019-01-07 13:17:16.564020",
+        "fecha_fin": "2019-01-10 11:17:16.564020"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-25 14:39:13.040080",
+        "fecha_inicio": "2019-02-27 14:39:22.040080",
+        "fecha_fin": "2019-02-27 18:39:22.040080"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-31 11:06:44.010180",
+        "fecha_inicio": "2019-01-02 11:06:53.010180",
+        "fecha_fin": "2019-01-04 18:06:53.010180"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-07 13:52:30.587034",
+        "fecha_inicio": "2018-06-11 13:52:39.587034",
+        "fecha_fin": "2018-06-14 11:52:39.587034"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-10 17:43:44.209872",
+        "fecha_inicio": "2018-07-10 17:43:53.209872",
+        "fecha_fin": "2018-07-11 09:43:53.209872"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-12-07 10:49:39.944755",
+        "fecha_inicio": "2018-12-10 10:49:48.944755",
+        "fecha_fin": "2018-12-10 12:49:48.944755"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-02 16:27:04.380958",
+        "fecha_inicio": "2018-11-05 16:27:13.380958",
+        "fecha_fin": "2018-11-06 11:27:13.380958"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-18 16:07:43.880663",
+        "fecha_inicio": "2018-12-18 16:07:52.880663",
+        "fecha_fin": "2018-12-20 15:07:52.880663"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-06 17:31:22.357959",
+        "fecha_inicio": "2019-02-07 17:31:31.357959",
+        "fecha_fin": "2019-02-08 09:31:31.357959"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-22 17:45:19.244637",
+        "fecha_inicio": "2018-06-25 17:45:28.244637",
+        "fecha_fin": "2018-06-28 16:45:28.244637"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-03 14:05:01.002058",
+        "fecha_inicio": "2019-01-07 14:05:10.002058",
+        "fecha_fin": "2019-01-08 13:05:10.002058"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-12 10:44:53.133765",
+        "fecha_inicio": "2018-11-13 10:45:02.133765",
+        "fecha_fin": "2018-11-13 14:45:02.133765"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-03-06 18:08:07.126882",
+        "fecha_inicio": "2019-03-06 18:08:16.126882",
+        "fecha_fin": "2019-03-07 10:08:16.126882"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-08-09 12:53:12.085775",
+        "fecha_inicio": "2018-08-13 12:53:21.085775",
+        "fecha_fin": "2018-08-14 11:53:21.085775"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-05 17:04:11.027476",
+        "fecha_inicio": "2018-04-05 17:04:20.027476",
+        "fecha_fin": "2018-04-09 16:04:20.027476"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-28 09:47:33.679670",
+        "fecha_inicio": "2018-05-28 09:47:42.679670",
+        "fecha_fin": "2018-05-28 13:47:42.679670"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-26 12:38:34.184479",
+        "fecha_inicio": "2018-09-27 12:38:43.184479",
+        "fecha_fin": "2018-10-01 11:38:43.184479"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-29 18:25:13.665302",
+        "fecha_inicio": "2018-05-29 18:25:22.665302",
+        "fecha_fin": "2018-05-31 17:25:22.665302"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-18 13:08:03.652237",
+        "fecha_inicio": "2019-01-18 13:08:12.652237",
+        "fecha_fin": "2019-01-18 17:08:12.652237"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-08 10:46:42.076662",
+        "fecha_inicio": "2018-01-11 10:46:51.076662",
+        "fecha_fin": "2018-01-11 18:46:51.076662"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-20 12:23:16.955306",
+        "fecha_inicio": "2018-02-20 12:23:25.955306",
+        "fecha_fin": "2018-02-22 12:23:25.955306"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-03-29 17:20:33.896123",
+        "fecha_inicio": "2019-03-29 17:20:42.896123",
+        "fecha_fin": "2019-04-02 16:20:42.896123"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-22 13:23:27.268713",
+        "fecha_inicio": "2019-04-22 13:23:36.268713",
+        "fecha_fin": "2019-04-23 12:23:36.268713"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-15 14:53:13.923507",
+        "fecha_inicio": "2018-05-15 14:53:22.923507",
+        "fecha_fin": "2018-05-16 13:53:22.923507"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-08 11:38:06.526160",
+        "fecha_inicio": "2018-05-11 11:38:15.526160",
+        "fecha_fin": "2018-05-15 10:38:15.526160"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-24 15:13:43.056246",
+        "fecha_inicio": "2018-12-27 15:13:52.056246",
+        "fecha_fin": "2018-12-28 10:13:52.056246"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-26 18:56:32.951736",
+        "fecha_inicio": "2018-10-01 18:56:41.951736",
+        "fecha_fin": "2018-10-02 10:56:41.951736"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-17 16:47:58.888239",
+        "fecha_inicio": "2018-09-20 16:48:07.888239",
+        "fecha_fin": "2018-09-24 14:48:07.888239"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-22 11:47:32.698835",
+        "fecha_inicio": "2018-01-29 11:47:41.698835",
+        "fecha_fin": "2018-01-29 15:47:41.698835"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-19 13:10:56.331693",
+        "fecha_inicio": "2018-11-21 13:11:05.331693",
+        "fecha_fin": "2018-11-21 17:11:05.331693"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-26 13:40:12.721946",
+        "fecha_inicio": "2018-10-26 13:40:21.721946",
+        "fecha_fin": "2018-10-31 11:40:21.721946"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-01-01 10:46:34.947917",
+        "fecha_inicio": "2019-01-07 10:46:43.947917",
+        "fecha_fin": "2019-01-09 17:46:43.947917"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-04 16:25:03.817279",
+        "fecha_inicio": "2019-02-08 16:25:12.817279",
+        "fecha_fin": "2019-02-12 15:25:12.817279"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-21 10:14:19.691265",
+        "fecha_inicio": "2019-01-21 10:14:28.691265",
+        "fecha_fin": "2019-01-21 18:14:28.691265"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-18 10:24:15.489648",
+        "fecha_inicio": "2019-03-21 10:24:24.489648",
+        "fecha_fin": "2019-03-21 12:24:24.489648"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-02-26 13:56:11.944416",
+        "fecha_inicio": "2018-03-01 13:56:20.944416",
+        "fecha_fin": "2018-03-02 12:56:20.944416"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-07 12:39:21.938647",
+        "fecha_inicio": "2018-12-07 12:39:30.938647",
+        "fecha_fin": "2018-12-11 11:39:30.938647"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-30 18:59:16.715568",
+        "fecha_inicio": "2018-02-01 18:59:25.715568",
+        "fecha_fin": "2018-02-05 17:59:25.715568"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-04 11:40:40.156414",
+        "fecha_inicio": "2019-03-04 11:40:49.156414",
+        "fecha_fin": "2019-03-05 10:40:49.156414"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-15 09:57:34.126105",
+        "fecha_inicio": "2018-06-18 09:57:43.126105",
+        "fecha_fin": "2018-06-18 17:57:43.126105"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-12 16:14:40.078500",
+        "fecha_inicio": "2018-06-15 16:14:49.078500",
+        "fecha_fin": "2018-06-15 17:14:49.078500"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-31 15:48:56.257132",
+        "fecha_inicio": "2019-01-31 15:49:05.257132",
+        "fecha_fin": "2019-02-04 13:49:05.257132"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-05 13:35:46.345208",
+        "fecha_inicio": "2018-07-06 13:35:55.345208",
+        "fecha_fin": "2018-07-10 12:35:55.345208"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-21 16:21:51.721374",
+        "fecha_inicio": "2018-11-21 16:22:00.721374",
+        "fecha_fin": "2018-11-23 15:22:00.721374"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-24 18:40:03.739599",
+        "fecha_inicio": "2018-12-24 18:40:12.739599",
+        "fecha_fin": "2018-12-26 17:40:12.739599"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-15 15:59:40.184044",
+        "fecha_inicio": "2018-01-15 15:59:49.184044",
+        "fecha_fin": "2018-01-18 13:59:49.184044"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-09 12:47:58.795260",
+        "fecha_inicio": "2018-08-09 12:48:07.795260",
+        "fecha_fin": "2018-08-10 11:48:07.795260"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-25 13:34:04.577566",
+        "fecha_inicio": "2019-01-28 13:34:13.577566",
+        "fecha_fin": "2019-01-30 12:34:13.577566"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-09 12:04:09.343938",
+        "fecha_inicio": "2018-07-09 12:04:18.343938",
+        "fecha_fin": "2018-07-12 10:04:18.343938"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-01-26 10:57:48.765043",
+        "fecha_inicio": "2018-01-26 10:57:57.765043",
+        "fecha_fin": "2018-01-26 18:57:57.765043"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-22 17:45:13.607639",
+        "fecha_inicio": "2018-10-22 17:45:22.607639",
+        "fecha_fin": "2018-10-23 17:45:22.607639"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-04-24 13:09:16.633068",
+        "fecha_inicio": "2018-04-25 13:09:25.633068",
+        "fecha_fin": "2018-04-25 15:09:25.633068"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-01 11:07:38.407476",
+        "fecha_inicio": "2019-04-01 11:07:47.407476",
+        "fecha_fin": "2019-04-03 18:07:47.407476"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-19 13:28:51.407502",
+        "fecha_inicio": "2018-04-19 13:29:00.407502",
+        "fecha_fin": "2018-04-19 14:29:00.407502"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-29 09:05:19.390251",
+        "fecha_inicio": "2018-09-03 09:05:28.390251",
+        "fecha_fin": "2018-09-03 17:05:28.390251"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-27 12:48:10.492199",
+        "fecha_inicio": "2018-07-02 12:48:19.492199",
+        "fecha_fin": "2018-07-02 16:48:19.492199"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-10 10:48:30.621613",
+        "fecha_inicio": "2018-12-13 10:48:39.621613",
+        "fecha_fin": "2018-12-17 17:48:39.621613"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-11 10:06:10.122739",
+        "fecha_inicio": "2018-06-13 10:06:19.122739",
+        "fecha_fin": "2018-06-13 18:06:19.122739"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-08-17 09:44:23.259839",
+        "fecha_inicio": "2018-08-20 09:44:32.259839",
+        "fecha_fin": "2018-08-21 09:44:32.259839"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-28 14:56:09.573235",
+        "fecha_inicio": "2018-09-28 14:56:18.573235",
+        "fecha_fin": "2018-09-28 15:56:18.573235"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-05 12:42:09.421786",
+        "fecha_inicio": "2018-11-05 12:42:18.421786",
+        "fecha_fin": "2018-11-05 16:42:18.421786"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-21 10:42:50.750422",
+        "fecha_inicio": "2018-09-21 10:42:59.750422",
+        "fecha_fin": "2018-09-21 14:42:59.750422"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-07-12 12:32:04.662647",
+        "fecha_inicio": "2018-07-16 12:32:13.662647",
+        "fecha_fin": "2018-07-16 16:32:13.662647"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-04 15:49:52.599706",
+        "fecha_inicio": "2019-01-04 15:50:01.599706",
+        "fecha_fin": "2019-01-09 13:50:01.599706"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-19 14:52:56.254011",
+        "fecha_inicio": "2018-04-20 14:53:05.254011",
+        "fecha_fin": "2018-04-25 12:53:05.254011"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-11 10:41:13.643314",
+        "fecha_inicio": "2019-04-11 10:41:22.643314",
+        "fecha_fin": "2019-04-11 14:41:22.643314"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-17 18:09:34.632050",
+        "fecha_inicio": "2018-05-18 18:09:43.632050",
+        "fecha_fin": "2018-05-21 13:09:43.632050"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-03-20 16:48:32.104665",
+        "fecha_inicio": "2018-03-23 16:48:41.104665",
+        "fecha_fin": "2018-03-27 15:48:41.104665"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-21 14:13:48.265655",
+        "fecha_inicio": "2018-03-22 14:13:57.265655",
+        "fecha_fin": "2018-03-26 12:13:57.265655"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-15 10:00:17.633565",
+        "fecha_inicio": "2019-04-22 10:00:26.633565",
+        "fecha_fin": "2019-04-22 18:00:26.633565"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-22 12:39:32.215693",
+        "fecha_inicio": "2019-02-25 12:39:41.215693",
+        "fecha_fin": "2019-02-26 12:39:41.215693"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-09-05 13:01:52.929729",
+        "fecha_inicio": "2018-09-10 13:02:01.929729",
+        "fecha_fin": "2018-09-10 17:02:01.929729"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-01 12:25:28.120599",
+        "fecha_inicio": "2018-06-04 12:25:37.120599",
+        "fecha_fin": "2018-06-07 10:25:37.120599"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-27 14:33:09.569723",
+        "fecha_inicio": "2018-02-27 14:33:18.569723",
+        "fecha_fin": "2018-02-28 13:33:18.569723"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-14 12:10:11.872301",
+        "fecha_inicio": "2019-02-18 12:10:20.872301",
+        "fecha_fin": "2019-02-20 11:10:20.872301"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-25 18:55:02.479339",
+        "fecha_inicio": "2019-03-04 18:55:11.479339",
+        "fecha_fin": "2019-03-06 17:55:11.479339"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2019-01-28 09:06:41.074246",
+        "fecha_inicio": "2019-01-28 09:06:50.074246",
+        "fecha_fin": "2019-01-28 13:06:50.074246"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-26 15:25:25.649844",
+        "fecha_inicio": "2018-06-26 15:25:34.649844",
+        "fecha_fin": "2018-06-27 14:25:34.649844"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-13 16:08:45.013264",
+        "fecha_inicio": "2018-06-15 16:08:54.013264",
+        "fecha_fin": "2018-06-18 11:08:54.013264"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-12 13:45:11.233308",
+        "fecha_inicio": "2018-09-12 13:45:20.233308",
+        "fecha_fin": "2018-09-13 12:45:20.233308"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-01 11:20:51.902744",
+        "fecha_inicio": "2018-10-08 11:21:00.902744",
+        "fecha_fin": "2018-10-09 11:21:00.902744"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-07 14:59:36.222438",
+        "fecha_inicio": "2019-02-12 14:59:45.222438",
+        "fecha_fin": "2019-02-15 12:59:45.222438"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-07 15:05:21.405760",
+        "fecha_inicio": "2018-06-12 15:05:30.405760",
+        "fecha_fin": "2018-06-13 14:05:30.405760"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-21 11:46:52.319304",
+        "fecha_inicio": "2018-11-21 11:47:01.319304",
+        "fecha_fin": "2018-11-21 12:47:01.319304"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-06 15:16:54.917869",
+        "fecha_inicio": "2018-07-10 15:17:03.917869",
+        "fecha_fin": "2018-07-11 10:17:03.917869"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-11-12 14:33:07.337092",
+        "fecha_inicio": "2018-11-12 14:33:16.337092",
+        "fecha_fin": "2018-11-14 13:33:16.337092"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-28 17:21:45.235762",
+        "fecha_inicio": "2018-04-02 17:21:54.235762",
+        "fecha_fin": "2018-04-03 12:21:54.235762"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-16 17:21:49.312536",
+        "fecha_inicio": "2018-05-16 17:21:58.312536",
+        "fecha_fin": "2018-05-18 16:21:58.312536"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-20 17:43:58.895652",
+        "fecha_inicio": "2018-12-20 17:44:07.895652",
+        "fecha_fin": "2018-12-25 16:44:07.895652"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-12-31 12:45:48.243873",
+        "fecha_inicio": "2018-12-31 12:45:57.243873",
+        "fecha_fin": "2019-01-01 11:45:57.243873"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-22 11:57:00.565730",
+        "fecha_inicio": "2018-05-23 11:57:09.565730",
+        "fecha_fin": "2018-05-25 10:57:09.565730"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-23 10:04:38.477467",
+        "fecha_inicio": "2018-10-29 10:04:47.477467",
+        "fecha_fin": "2018-10-31 17:04:47.477467"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-26 15:31:37.350384",
+        "fecha_inicio": "2018-03-26 15:31:46.350384",
+        "fecha_fin": "2018-03-28 14:31:46.350384"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-06 18:11:51.195673",
+        "fecha_inicio": "2018-03-12 18:12:00.195673",
+        "fecha_fin": "2018-03-14 17:12:00.195673"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-03-30 16:32:42.736773",
+        "fecha_inicio": "2018-04-04 16:32:51.736773",
+        "fecha_fin": "2018-04-05 16:32:51.736773"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-12-07 11:47:08.917693",
+        "fecha_inicio": "2018-12-10 11:47:17.917693",
+        "fecha_fin": "2018-12-12 18:47:17.917693"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-02-11 15:37:26.352284",
+        "fecha_inicio": "2019-02-14 15:37:35.352284",
+        "fecha_fin": "2019-02-15 10:37:35.352284"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-05-30 12:45:06.381775",
+        "fecha_inicio": "2018-05-31 12:45:15.381775",
+        "fecha_fin": "2018-06-04 10:45:15.381775"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-02 14:02:32.857843",
+        "fecha_inicio": "2018-11-05 14:02:41.857843",
+        "fecha_fin": "2018-11-06 13:02:41.857843"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-06 10:10:53.174109",
+        "fecha_inicio": "2018-06-11 10:11:02.174109",
+        "fecha_fin": "2018-06-11 12:11:02.174109"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-06-04 12:32:38.840369",
+        "fecha_inicio": "2018-06-04 12:32:47.840369",
+        "fecha_fin": "2018-06-07 10:32:47.840369"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-11 11:50:24.601016",
+        "fecha_inicio": "2018-10-15 11:50:33.601016",
+        "fecha_fin": "2018-10-16 10:50:33.601016"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-04-09 15:19:42.654776",
+        "fecha_inicio": "2018-04-09 15:19:51.654776",
+        "fecha_fin": "2018-04-10 14:19:51.654776"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-03-04 10:55:25.809942",
+        "fecha_inicio": "2019-03-08 10:55:34.809942",
+        "fecha_fin": "2019-03-12 17:55:34.809942"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-29 09:32:25.647515",
+        "fecha_inicio": "2019-04-29 09:32:34.647515",
+        "fecha_fin": "2019-05-01 16:32:34.647515"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2019-03-29 15:14:06.530107",
+        "fecha_inicio": "2019-04-03 15:14:15.530107",
+        "fecha_fin": "2019-04-08 13:14:15.530107"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-19 13:07:35.657395",
+        "fecha_inicio": "2018-03-21 13:07:44.657395",
+        "fecha_fin": "2018-03-21 14:07:44.657395"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-10-19 15:24:50.620326",
+        "fecha_inicio": "2018-10-19 15:24:59.620326",
+        "fecha_fin": "2018-10-19 17:24:59.620326"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-02-16 11:47:28.602730",
+        "fecha_inicio": "2018-02-19 11:47:37.602730",
+        "fecha_fin": "2018-02-20 11:47:37.602730"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-19 15:16:49.352363",
+        "fecha_inicio": "2018-03-23 15:16:58.352363",
+        "fecha_fin": "2018-03-26 14:16:58.352363"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-07-12 13:05:34.194345",
+        "fecha_inicio": "2018-07-16 13:05:43.194345",
+        "fecha_fin": "2018-07-17 12:05:43.194345"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-24 16:06:42.482588",
+        "fecha_inicio": "2018-05-24 16:06:51.482588",
+        "fecha_fin": "2018-05-24 17:06:51.482588"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-05 16:37:30.987738",
+        "fecha_inicio": "2018-04-06 16:37:39.987738",
+        "fecha_fin": "2018-04-11 14:37:39.987738"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-09-28 16:59:28.648375",
+        "fecha_inicio": "2018-09-28 16:59:37.648375",
+        "fecha_fin": "2018-10-02 15:59:37.648375"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-02-14 11:29:06.822136",
+        "fecha_inicio": "2018-02-14 11:29:15.822136",
+        "fecha_fin": "2018-02-16 10:29:15.822136"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-04-19 16:30:05.293149",
+        "fecha_inicio": "2019-04-19 16:30:14.293149",
+        "fecha_fin": "2019-04-24 14:30:14.293149"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-09 16:45:22.996302",
+        "fecha_inicio": "2019-04-11 16:45:31.996302",
+        "fecha_fin": "2019-04-15 14:45:31.996302"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-30 16:59:45.958422",
+        "fecha_inicio": "2018-05-07 16:59:54.958422",
+        "fecha_fin": "2018-05-08 11:59:54.958422"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-15 16:08:23.591234",
+        "fecha_inicio": "2018-01-22 16:08:32.591234",
+        "fecha_fin": "2018-01-25 14:08:32.591234"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-06-27 11:43:18.648828",
+        "fecha_inicio": "2018-06-27 11:43:27.648828",
+        "fecha_fin": "2018-06-28 10:43:27.648828"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-16 13:37:16.851894",
+        "fecha_inicio": "2018-05-18 13:37:25.851894",
+        "fecha_fin": "2018-05-23 11:37:25.851894"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-07 12:02:14.703321",
+        "fecha_inicio": "2019-01-07 12:02:23.703321",
+        "fecha_fin": "2019-01-07 16:02:23.703321"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-02-28 11:50:37.683675",
+        "fecha_inicio": "2018-03-05 11:50:46.683675",
+        "fecha_fin": "2018-03-05 15:50:46.683675"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-01-11 11:45:23.481021",
+        "fecha_inicio": "2018-01-11 11:45:32.481021",
+        "fecha_fin": "2018-01-12 11:45:32.481021"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-29 12:49:30.908083",
+        "fecha_inicio": "2018-10-29 12:49:39.908083",
+        "fecha_fin": "2018-10-30 11:49:39.908083"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-12-26 13:03:57.096568",
+        "fecha_inicio": "2018-12-26 13:04:06.096568",
+        "fecha_fin": "2018-12-26 17:04:06.096568"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-01 11:58:40.331941",
+        "fecha_inicio": "2018-10-03 11:58:49.331941",
+        "fecha_fin": "2018-10-05 18:58:49.331941"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-10-22 11:57:41.562395",
+        "fecha_inicio": "2018-10-22 11:57:50.562395",
+        "fecha_fin": "2018-10-22 15:57:50.562395"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2019-02-04 13:36:19.188834",
+        "fecha_inicio": "2019-02-04 13:36:28.188834",
+        "fecha_fin": "2019-02-04 17:36:28.188834"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-01-10 14:28:20.114791",
+        "fecha_inicio": "2018-01-11 14:28:29.114791",
+        "fecha_fin": "2018-01-15 12:28:29.114791"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-09-10 13:08:07.872742",
+        "fecha_inicio": "2018-09-10 13:08:16.872742",
+        "fecha_fin": "2018-09-13 11:08:16.872742"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-05-10 15:23:29.753725",
+        "fecha_inicio": "2018-05-10 15:23:38.753725",
+        "fecha_fin": "2018-05-11 14:23:38.753725"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-12 11:41:29.281623",
+        "fecha_inicio": "2019-02-13 11:41:38.281623",
+        "fecha_fin": "2019-02-13 15:41:38.281623"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "junior",
+        "fecha_crecion": "2018-11-26 14:21:12.142167",
+        "fecha_inicio": "2018-11-26 14:21:21.142167",
+        "fecha_fin": "2018-11-29 12:21:21.142167"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "junior",
+        "fecha_crecion": "2018-03-05 16:36:32.477239",
+        "fecha_inicio": "2018-03-05 16:36:41.477239",
+        "fecha_fin": "2018-03-08 14:36:41.477239"
+    },
+    {
+        "tipo": "imposible",
+        "perfil": "senior",
+        "fecha_crecion": "2018-05-30 12:34:13.135733",
+        "fecha_inicio": "2018-06-04 12:34:22.135733",
+        "fecha_fin": "2018-06-04 16:34:22.135733"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "senior",
+        "fecha_crecion": "2018-11-07 13:06:05.311842",
+        "fecha_inicio": "2018-11-07 13:06:14.311842",
+        "fecha_fin": "2018-11-08 12:06:14.311842"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-08 18:32:23.407404",
+        "fecha_inicio": "2019-04-12 18:32:32.407404",
+        "fecha_fin": "2019-04-15 18:32:32.407404"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-03 15:14:23.925450",
+        "fecha_inicio": "2018-04-03 15:14:32.925450",
+        "fecha_fin": "2018-04-04 14:14:32.925450"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-02-27 17:19:37.406310",
+        "fecha_inicio": "2019-03-04 17:19:46.406310",
+        "fecha_fin": "2019-03-06 16:19:46.406310"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-01-29 18:58:00.603353",
+        "fecha_inicio": "2019-02-01 18:58:09.603353",
+        "fecha_fin": "2019-02-05 17:58:09.603353"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "senior",
+        "fecha_crecion": "2018-06-14 16:03:30.266074",
+        "fecha_inicio": "2018-06-18 16:03:39.266074",
+        "fecha_fin": "2018-06-18 18:03:39.266074"
+    },
+    {
+        "tipo": "normal",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-04-09 18:33:44.381599",
+        "fecha_inicio": "2018-04-13 18:33:53.381599",
+        "fecha_fin": "2018-04-17 17:33:53.381599"
+    },
+    {
+        "tipo": "dificil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2018-10-15 09:58:53.030443",
+        "fecha_inicio": "2018-10-15 09:59:02.030443",
+        "fecha_fin": "2018-10-17 09:59:02.030443"
+    },
+    {
+        "tipo": "facil",
+        "perfil": "semisenior",
+        "fecha_crecion": "2019-04-11 15:49:36.438511",
+        "fecha_inicio": "2019-04-16 15:49:45.438511",
+        "fecha_fin": "2019-04-17 14:49:45.438511"
+    }
+]
