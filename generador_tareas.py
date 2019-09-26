@@ -24,68 +24,56 @@ class TareaConfig():
 # ----------------------------------------------------
 
 probabilidades_facil_junior = [
-    ProbabilidadTiempo(1, 0.1),
-    ProbabilidadTiempo(2, 0.1),
-    ProbabilidadTiempo(4,0.2),
-    ProbabilidadTiempo(8, 0.3),
-    ProbabilidadTiempo(16,0.3),
+    ProbabilidadTiempo(4,0.1),
+    ProbabilidadTiempo(8, 0.5),
+    ProbabilidadTiempo(16,0.4),
 ]
 
 probabilidades_facil_semisenior = [
-    ProbabilidadTiempo(1, 0.2),
-    ProbabilidadTiempo(4, 0.2),
-    ProbabilidadTiempo(8, 0.3),
-    ProbabilidadTiempo(16,0.3)
+    ProbabilidadTiempo(2, 0.5),
+    ProbabilidadTiempo(4, 0.3),
+    ProbabilidadTiempo(8, 0.2)
 ]
 
 probabilidades_facil_senior = [
-    ProbabilidadTiempo(2,0.7),
-    ProbabilidadTiempo(4,0.3)
+    ProbabilidadTiempo(1,0.9),
+    ProbabilidadTiempo(2,0.1)
 ]
 
 probabilidades_normal_junior = [
     ProbabilidadTiempo(4, 0.1),
-    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(8, 0.2),
     ProbabilidadTiempo(16,0.3),
-    ProbabilidadTiempo(24, 0.2),
-    ProbabilidadTiempo(32,0.1)
+    ProbabilidadTiempo(24, 0.4),
 ]
 
 probabilidades_normal_semisenior = [
-    ProbabilidadTiempo(4, 0.2),
+    ProbabilidadTiempo(4, 0.5),
     ProbabilidadTiempo(8, 0.3),
-    ProbabilidadTiempo(16,0.3),
-    ProbabilidadTiempo(24, 0.2)
+    ProbabilidadTiempo(16,0.2),
 ]
 
 probabilidades_normal_senior = [
-    ProbabilidadTiempo(4, 0.2),
-    ProbabilidadTiempo(8, 0.5),
-    ProbabilidadTiempo(16,0.3)
+    ProbabilidadTiempo(2, 0.7),
+    ProbabilidadTiempo(4, 0.3),
 ]
 
 probabilidades_dificil_semisenior = [
-    ProbabilidadTiempo(2, 0.05),
-    ProbabilidadTiempo(4, 0.1),
-    ProbabilidadTiempo(8, 0.1),
-    ProbabilidadTiempo(16,0.2),
-    ProbabilidadTiempo(32,0.3),
-    ProbabilidadTiempo(48,0.25)
+    ProbabilidadTiempo(4, 0.5),
+    ProbabilidadTiempo(8, 0.3),
+    ProbabilidadTiempo(16,0.2)
 ]
 
 probabilidades_dificil_senior = [
-    ProbabilidadTiempo(2, 0.2),
-    ProbabilidadTiempo(4, 0.3),
-    ProbabilidadTiempo(8, 0.2),
-    ProbabilidadTiempo(16,0.2),
-    ProbabilidadTiempo(32,0.1)
+    ProbabilidadTiempo(2, 0.3),
+    ProbabilidadTiempo(4, 0.4),
+    ProbabilidadTiempo(8, 0.3)
 ]
 
 probabilidades_imposible_senior = [
-    ProbabilidadTiempo(4, 0.3),
-    ProbabilidadTiempo(8, 0.3),
-    ProbabilidadTiempo(16, 0.2),
-    ProbabilidadTiempo(32,0.2)
+    ProbabilidadTiempo(4, 0.5),
+    ProbabilidadTiempo(8, 0.4),
+    ProbabilidadTiempo(16, 0.1)
 ]
 
 probabilidades_dias_tomar_tarea = [
@@ -132,7 +120,10 @@ def cambiar_a_hora_laboral(fecha: datetime) -> datetime:
     cumple_hora_laboral = horario_laboral_inicial <= fecha.hour <= horario_laboral_salida
     
     if not cumple_dia_laboral:
-        dias_a_sumar = 1 if fecha.strftime("%A") == "Sunday" else 2
+        if fecha.strftime("%A") == "Saturday":
+            dias_a_sumar = 2
+        if fecha.strftime("%A") == "Sunday":
+            dias_a_sumar = 1
         return cambiar_a_hora_laboral(fecha + timedelta(days=dias_a_sumar))        
 
     if not cumple_hora_laboral:

@@ -24,7 +24,7 @@ class Tarea():
     def __init__(self, tipo, perfil, fecha_creacion, fecha_inicio, fecha_fin):
         self.tipo = tipo
         self.perfil = perfil
-        self.fecha_crecion = fecha_creacion
+        self.fecha_creacion = fecha_creacion
         self.fecha_inicio = fecha_inicio
         self.fecha_fin = fecha_fin
 
